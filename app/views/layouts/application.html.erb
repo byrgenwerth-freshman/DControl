@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CS551Project</title>
+  <title>DControl</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id='main'>
+  <div id='Header'>
+    <h1>DControl</h1>
+  </div>
+  <div class='NavBar'>
+    <ul>
+      <li>Home</li>
+      <li>Example</li>
+      <li>Links</li>
+     </ul>
+  </div>
 
-<%= yield %>
-
+    <%= yield %>
+  </div>
 </body>
 </html>

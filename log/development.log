@@ -1,0 +1,332 @@
+
+
+Started GET "/assets/rails.png" for 65.27.36.143 at 2013-02-24 16:11:21 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/assets/rails.png" for 65.27.36.143 at 2013-02-24 16:41:11 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (2ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 16:47:23 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Compiled home.css  (7ms)  (pid 14791)
+Compiled application.css  (14ms)  (pid 14791)
+Compiled jquery.js  (2ms)  (pid 14791)
+Compiled jquery_ujs.js  (0ms)  (pid 14791)
+Compiled home.js  (62ms)  (pid 14791)
+Compiled application.js  (107ms)  (pid 14791)
+Completed 200 OK in 226ms (Views: 225.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /application.js - 200 OK (24ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 16:47:24 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 16:51:28 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 16:51:29 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:29:17 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Compiled application.css  (1ms)  (pid 15186)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:29:18 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:30:58 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /application.js - 200 OK (24ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:30:59 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:44:19 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:44:21 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:47:19 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /application.js - 200 OK (27ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:47:20 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:54:09 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Compiled application.css  (1ms)  (pid 15591)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:54:10 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:54:13 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 17:55:24 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Compiled application.css  (1ms)  (pid 15613)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 17:55:25 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 17:55:25 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 17:55:26 -0500
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 17:55:26 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 17:55:26 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 17:55:26 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/" for 65.27.36.143 at 2013-02-24 18:00:57 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Compiled application.css  (1ms)  (pid 15693)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 65.27.36.143 at 2013-02-24 18:00:58 -0500
+Served asset /home.js - 200 OK (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
