@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>DControl</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%unless mobile_device?%>
+    <%= stylesheet_link_tag 'application' %>
+  <%else%>
+    <%= stylesheet_link_tag 'mobile' if mobile_device? %>
+  <%end%>
+
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -11,6 +16,7 @@
   <div id='Header'>
     <h1>DControl</h1>
   </div>
+  <div class='line'></div>
   <div class='NavBar'>
     <ul>
       <li>Home</li>
@@ -18,8 +24,9 @@
       <li>Links</li>
      </ul>
   </div>
-
+  <div class='line'></div>
     <%= yield %>
+  <div class='line'></div>
   </div>
 </body>
 </html>
