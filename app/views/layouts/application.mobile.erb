@@ -1,0 +1,29 @@
+<html>
+<head>
+   <%= stylesheet_link_tag    "application-mobile" %>
+   <%= javascript_include_tag "application-mobile" %>
+   <%= csrf_meta_tags %>
+   <meta name="viewport" content="width=device-width, initial-scale=1">   
+</head>
+<body>
+<div id='main'>
+<header data-role="header"> 
+<h1>DControl</h1>
+</header>
+<ul data-role="listview">
+  <li><%=link_to "Home", root_path%></li>
+  <li><%=link_to "Links", links_path%></li>
+  <li><%=link_to "Examples", examples_path%></li>
+</ul>
+
+<%= yield %>
+<!--<div class='mobileChoice'>
+    <% if mobile_device? %>
+      <%= link_to "Full Site", :mobile => 0 %>
+    <% else %>
+      <%= link_to "Mobile Site", :mobile => 1 %>
+    <% end %>
+  </div>-->
+</div>
+</body>
+</html>

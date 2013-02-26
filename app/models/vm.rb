@@ -1,3 +1,3 @@
 class Vm < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :memory, :name
 end
