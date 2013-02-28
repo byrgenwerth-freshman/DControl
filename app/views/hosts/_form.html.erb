@@ -1,0 +1,129 @@
+<%= form_for(@host) do |f| %>
+  <% if @host.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@host.errors.count, "error") %> prohibited this host from being saved:</h2>
+
+      <ul>
+      <% @host.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :datacenter_id %><br />
+    <%= f.number_field :datacenter_id %>
+  </div>
+  <div class="field">
+    <%= f.label :dns_name %><br />
+    <%= f.text_field :dns_name %>
+  </div>
+  <div class="field">
+    <%= f.label :ip_address %><br />
+    <%= f.text_field :ip_address %>
+  </div>
+  <div class="field">
+    <%= f.label :product_name %><br />
+    <%= f.text_field :product_name %>
+  </div>
+  <div class="field">
+    <%= f.label :product_fullname %><br />
+    <%= f.text_field :product_fullname %>
+  </div>
+  <div class="field">
+    <%= f.label :product_vendor %><br />
+    <%= f.text_field :product_vendor %>
+  </div>
+  <div class="field">
+    <%= f.label :product_version %><br />
+    <%= f.text_field :product_version %>
+  </div>
+  <div class="field">
+    <%= f.label :product_build %><br />
+    <%= f.text_field :product_build %>
+  </div>
+  <div class="field">
+    <%= f.label :product_os_type %><br />
+    <%= f.text_field :product_os_type %>
+  </div>
+  <div class="field">
+    <%= f.label :product_line_id %><br />
+    <%= f.text_field :product_line_id %>
+  </div>
+  <div class="field">
+    <%= f.label :product_api_version %><br />
+    <%= f.text_field :product_api_version %>
+  </div>
+  <div class="field">
+    <%= f.label :host_vender %><br />
+    <%= f.text_field :host_vender %>
+  </div>
+  <div class="field">
+    <%= f.label :host_model %><br />
+    <%= f.text_field :host_model %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_model %><br />
+    <%= f.text_field :cpu_model %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_count %><br />
+    <%= f.number_field :cpu_count %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_core_count %><br />
+    <%= f.number_field :cpu_core_count %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_thread_count %><br />
+    <%= f.number_field :cpu_thread_count %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_hz %><br />
+    <%= f.number_field :cpu_hz %>
+  </div>
+  <div class="field">
+    <%= f.label :mem_size %><br />
+    <%= f.number_field :mem_size %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_power_mgmt_policy %><br />
+    <%= f.text_field :cpu_power_mgmt_policy %>
+  </div>
+  <div class="field">
+    <%= f.label :cpu_power_mgmt_support %><br />
+    <%= f.text_field :cpu_power_mgmt_support %>
+  </div>
+  <div class="field">
+    <%= f.label :nic_count %><br />
+    <%= f.number_field :nic_count %>
+  </div>
+  <div class="field">
+    <%= f.label :hba_count %><br />
+    <%= f.number_field :hba_count %>
+  </div>
+  <div class="field">
+    <%= f.label :last_perf_time %><br />
+    <%= f.date_select :last_perf_time %>
+  </div>
+  <div class="field">
+    <%= f.label :perf_refresh_rate %><br />
+    <%= f.number_field :perf_refresh_rate %>
+  </div>
+  <div class="field">
+    <%= f.label :boot_time %><br />
+    <%= f.date_select :boot_time %>
+  </div>
+  <div class="field">
+    <%= f.label :rank %><br />
+    <%= f.number_field :rank %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

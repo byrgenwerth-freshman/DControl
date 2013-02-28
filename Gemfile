@@ -26,6 +26,7 @@ gem 'execjs'
 
 gem 'therubyracer'
 
+gem 'bootstrap-sass'
 
 
 # To use ActiveModel has_secure_password

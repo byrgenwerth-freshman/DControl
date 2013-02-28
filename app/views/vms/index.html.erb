@@ -2,8 +2,29 @@
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Memory</th>
+    <th>Id</th>
+    <th>Datacenter</th>
+    <th>Power state</th>
+    <th>Resource group</th>
+    <th>Guest os</th>
+    <th>Guest family</th>
+    <th>Guest state</th>
+    <th>Mem size mb</th>
+    <th>Num vcpu</th>
+    <th>Num nic</th>
+    <th>Num disk</th>
+    <th>Dns name</th>
+    <th>Host</th>
+    <th>Ip address</th>
+    <th>Boot time</th>
+    <th>Memory overhead</th>
+    <th>Description</th>
+    <th>Annotation</th>
+    <th>Aggr commited storage space</th>
+    <th>Aggr uncommited storage space</th>
+    <th>Aggr unshared storage space</th>
+    <th>Storage space updated time</th>
+    <th>Rank</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,8 +32,29 @@
 
 <% @vms.each do |vm| %>
   <tr>
-    <td><%= vm.name %></td>
-    <td><%= vm.memory %></td>
+    <td><%= vm.id %></td>
+    <td><%= vm.datacenter_id %></td>
+    <td><%= vm.power_state %></td>
+    <td><%= vm.resource_group_id %></td>
+    <td><%= vm.guest_os %></td>
+    <td><%= vm.guest_family %></td>
+    <td><%= vm.guest_state %></td>
+    <td><%= vm.mem_size_mb %></td>
+    <td><%= vm.num_vcpu %></td>
+    <td><%= vm.num_nic %></td>
+    <td><%= vm.num_disk %></td>
+    <td><%= vm.dns_name %></td>
+    <td><%= vm.host_id %></td>
+    <td><%= vm.ip_address %></td>
+    <td><%= vm.boot_time %></td>
+    <td><%= vm.memory_overhead %></td>
+    <td><%= vm.description %></td>
+    <td><%= vm.annotation %></td>
+    <td><%= vm.aggr_commited_storage_space %></td>
+    <td><%= vm.aggr_uncommited_storage_space %></td>
+    <td><%= vm.aggr_unshared_storage_space %></td>
+    <td><%= vm.storage_space_updated_time %></td>
+    <td><%= vm.rank %></td>
     <td><%= link_to 'Show', vm %></td>
     <td><%= link_to 'Edit', edit_vm_path(vm) %></td>
     <td><%= link_to 'Destroy', vm, method: :delete, data: { confirm: 'Are you sure?' } %></td>

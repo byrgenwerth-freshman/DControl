@@ -1,0 +1,77 @@
+<h1>Listing hosts</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Datacenter</th>
+    <th>Dns name</th>
+    <th>Ip address</th>
+    <th>Product name</th>
+    <th>Product fullname</th>
+    <th>Product vendor</th>
+    <th>Product version</th>
+    <th>Product build</th>
+    <th>Product os type</th>
+    <th>Product line</th>
+    <th>Product api version</th>
+    <th>Host vender</th>
+    <th>Host model</th>
+    <th>Cpu model</th>
+    <th>Cpu count</th>
+    <th>Cpu core count</th>
+    <th>Cpu thread count</th>
+    <th>Cpu hz</th>
+    <th>Mem size</th>
+    <th>Cpu power mgmt policy</th>
+    <th>Cpu power mgmt support</th>
+    <th>Nic count</th>
+    <th>Hba count</th>
+    <th>Last perf time</th>
+    <th>Perf refresh rate</th>
+    <th>Boot time</th>
+    <th>Rank</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @hosts.each do |host| %>
+  <tr>
+    <td><%= host.id %></td>
+    <td><%= host.datacenter_id %></td>
+    <td><%= host.dns_name %></td>
+    <td><%= host.ip_address %></td>
+    <td><%= host.product_name %></td>
+    <td><%= host.product_fullname %></td>
+    <td><%= host.product_vendor %></td>
+    <td><%= host.product_version %></td>
+    <td><%= host.product_build %></td>
+    <td><%= host.product_os_type %></td>
+    <td><%= host.product_line_id %></td>
+    <td><%= host.product_api_version %></td>
+    <td><%= host.host_vender %></td>
+    <td><%= host.host_model %></td>
+    <td><%= host.cpu_model %></td>
+    <td><%= host.cpu_count %></td>
+    <td><%= host.cpu_core_count %></td>
+    <td><%= host.cpu_thread_count %></td>
+    <td><%= host.cpu_hz %></td>
+    <td><%= host.mem_size %></td>
+    <td><%= host.cpu_power_mgmt_policy %></td>
+    <td><%= host.cpu_power_mgmt_support %></td>
+    <td><%= host.nic_count %></td>
+    <td><%= host.hba_count %></td>
+    <td><%= host.last_perf_time %></td>
+    <td><%= host.perf_refresh_rate %></td>
+    <td><%= host.boot_time %></td>
+    <td><%= host.rank %></td>
+    <td><%= link_to 'Show', host %></td>
+    <td><%= link_to 'Edit', edit_host_path(host) %></td>
+    <td><%= link_to 'Destroy', host, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Host', new_host_path %>

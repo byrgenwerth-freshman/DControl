@@ -1,34 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>DControl</title>
-  <%= stylesheet_link_tag 'application-regular' %>
-  <%= javascript_include_tag 'application-regular' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id='main'>
-  <div id='Header'>
-    <h1>DControl</h1>
-  </div>
-  <div class='line'></div>
-  <div class='NavBar'>
-    <ul>
-      <li><%=link_to "Home", root_path%></li>
-      <li><%=link_to "Links", links_path%></li>
-      <li><%=link_to "Examples", examples_path%></li>
-     </ul>
-  </div>
-  <div class='line'></div>
-    <%= yield %>
-  <div class='line'></div>
-  <!--<div class='mobileChoice'>
-    <% if mobile_device? %>
-      <%= link_to "Full Site", :mobile => 0 %>
-    <% else %>
-      <%= link_to "Mobile Site", :mobile => 1 %>
-    <% end %>
-  </div>-->
-  </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Myapp" %></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <%= stylesheet_link_tag "application-regular", :media => "all" %>
+    <%= javascript_include_tag "application-regular" %>
+    <%= csrf_meta_tags %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div class="container">
+          <%= render 'layouts/navigation' %>
+        </div>
+      </nav>
+    </header>
+    <div id="main" role="main">
+      <div class="container">
+        <div class="content">
+           <div class="row">
+            <div class="span12">
+              <%= render 'layouts/messages' %>
+              <%= yield %>
+            </div>
+          </div>
+          <footer>
+          </footer>
+        </div>
+      </div> <!--! end of .container -->
+    </div> <!--! end of #main -->
+  </body>
 </html>

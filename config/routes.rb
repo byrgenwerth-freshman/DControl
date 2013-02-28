@@ -2,6 +2,9 @@ CS551Project::Application.routes.draw do
   resources :vms
 
 
+  resources :hosts
+
+
   root :to => "home#index"
   match "/examples/" => "examples#index"
   match "/links/" => "links#index"

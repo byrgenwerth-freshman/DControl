@@ -1,0 +1,145 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @host.id %>
+</p>
+
+<p>
+  <b>Datacenter:</b>
+  <%= @host.datacenter_id %>
+</p>
+
+<p>
+  <b>Dns name:</b>
+  <%= @host.dns_name %>
+</p>
+
+<p>
+  <b>Ip address:</b>
+  <%= @host.ip_address %>
+</p>
+
+<p>
+  <b>Product name:</b>
+  <%= @host.product_name %>
+</p>
+
+<p>
+  <b>Product fullname:</b>
+  <%= @host.product_fullname %>
+</p>
+
+<p>
+  <b>Product vendor:</b>
+  <%= @host.product_vendor %>
+</p>
+
+<p>
+  <b>Product version:</b>
+  <%= @host.product_version %>
+</p>
+
+<p>
+  <b>Product build:</b>
+  <%= @host.product_build %>
+</p>
+
+<p>
+  <b>Product os type:</b>
+  <%= @host.product_os_type %>
+</p>
+
+<p>
+  <b>Product line:</b>
+  <%= @host.product_line_id %>
+</p>
+
+<p>
+  <b>Product api version:</b>
+  <%= @host.product_api_version %>
+</p>
+
+<p>
+  <b>Host vender:</b>
+  <%= @host.host_vender %>
+</p>
+
+<p>
+  <b>Host model:</b>
+  <%= @host.host_model %>
+</p>
+
+<p>
+  <b>Cpu model:</b>
+  <%= @host.cpu_model %>
+</p>
+
+<p>
+  <b>Cpu count:</b>
+  <%= @host.cpu_count %>
+</p>
+
+<p>
+  <b>Cpu core count:</b>
+  <%= @host.cpu_core_count %>
+</p>
+
+<p>
+  <b>Cpu thread count:</b>
+  <%= @host.cpu_thread_count %>
+</p>
+
+<p>
+  <b>Cpu hz:</b>
+  <%= @host.cpu_hz %>
+</p>
+
+<p>
+  <b>Mem size:</b>
+  <%= @host.mem_size %>
+</p>
+
+<p>
+  <b>Cpu power mgmt policy:</b>
+  <%= @host.cpu_power_mgmt_policy %>
+</p>
+
+<p>
+  <b>Cpu power mgmt support:</b>
+  <%= @host.cpu_power_mgmt_support %>
+</p>
+
+<p>
+  <b>Nic count:</b>
+  <%= @host.nic_count %>
+</p>
+
+<p>
+  <b>Hba count:</b>
+  <%= @host.hba_count %>
+</p>
+
+<p>
+  <b>Last perf time:</b>
+  <%= @host.last_perf_time %>
+</p>
+
+<p>
+  <b>Perf refresh rate:</b>
+  <%= @host.perf_refresh_rate %>
+</p>
+
+<p>
+  <b>Boot time:</b>
+  <%= @host.boot_time %>
+</p>
+
+<p>
+  <b>Rank:</b>
+  <%= @host.rank %>
+</p>
+
+
+<%= link_to 'Edit', edit_host_path(@host) %> |
+<%= link_to 'Back', hosts_path %>
