@@ -1,13 +1,14 @@
 CS551Project::Application.routes.draw do
-  resources :vms
-
-
   resources :hosts
 
 
+  resources :vms
+
+
   root :to => "home#index"
-  match "/examples/" => "examples#index"
   match "/links/" => "links#index"
+  match "/dcontrol" => "d_control#index"
+  match "/dcontrol/post" => "d_control#action"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

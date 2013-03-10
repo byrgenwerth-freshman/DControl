@@ -30,6 +30,7 @@
     <th>Perf refresh rate</th>
     <th>Boot time</th>
     <th>Rank</th>
+    <th>Gathered</th>
     <th></th>
     <th></th>
     <th></th>
@@ -65,6 +66,7 @@
     <td><%= host.perf_refresh_rate %></td>
     <td><%= host.boot_time %></td>
     <td><%= host.rank %></td>
+    <td><%= host.gathered %></td>
     <td><%= link_to 'Show', host %></td>
     <td><%= link_to 'Edit', edit_host_path(host) %></td>
     <td><%= link_to 'Destroy', host, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -8,8 +8,8 @@ class CreateVms < ActiveRecord::Migration
       t.string :guest_os
       t.string :guest_family
       t.string :guest_state
-      t.int :mem_size_mb
-      t.int :num_vcpu
+      t.integer :mem_size_mb
+      t.integer :num_vcpu
       t.integer :num_nic
       t.integer :num_disk
       t.string :dns_name
@@ -19,11 +19,11 @@ class CreateVms < ActiveRecord::Migration
       t.integer :memory_overhead
       t.text :description
       t.text :annotation
-      t.int :aggr_commited_storage_space
-      t.int :aggr_uncommited_storage_space
-      t.int :aggr_unshared_storage_space
+      t.integer :aggr_commited_storage_space
+      t.integer :aggr_uncommited_storage_space
+      t.integer :aggr_unshared_storage_space
       t.date :storage_space_updated_time
-      t.int :rank
+      t.integer :rank
 
       t.timestamps
     end

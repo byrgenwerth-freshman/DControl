@@ -11,23 +11,66 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130226063605) do
-
-  create_table "data_flows", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20130228183111) do
 
   create_table "hosts", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "datacenter_id"
+    t.string   "dns_name"
+    t.string   "ip_address"
+    t.string   "product_name"
+    t.string   "product_fullname"
+    t.string   "product_vendor"
+    t.string   "product_version"
+    t.integer  "product_build"
+    t.string   "product_os_type"
+    t.string   "product_line_id"
+    t.float    "product_api_version"
+    t.string   "host_vender"
+    t.string   "host_model"
+    t.string   "cpu_model"
+    t.integer  "cpu_count"
+    t.integer  "cpu_core_count"
+    t.integer  "cpu_thread_count"
+    t.integer  "cpu_hz"
+    t.float    "mem_size"
+    t.string   "cpu_power_mgmt_policy"
+    t.string   "cpu_power_mgmt_support"
+    t.integer  "nic_count"
+    t.integer  "hba_count"
+    t.datetime "last_perf_time"
+    t.integer  "perf_refresh_rate"
+    t.datetime "boot_time"
+    t.integer  "rank"
+    t.datetime "gathered"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
   end
 
   create_table "vms", :force => true do |t|
-    t.string   "name"
-    t.string   "memory"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "datacenter_id"
+    t.boolean  "power_state"
+    t.integer  "resource_group_id"
+    t.string   "guest_os"
+    t.string   "guest_family"
+    t.string   "guest_state"
+    t.integer  "mem_size_mb"
+    t.integer  "num_vcpu"
+    t.integer  "num_nic"
+    t.integer  "num_disk"
+    t.string   "dns_name"
+    t.integer  "host_id"
+    t.string   "ip_address"
+    t.date     "boot_time"
+    t.integer  "memory_overhead"
+    t.text     "description"
+    t.text     "annotation"
+    t.integer  "aggr_commited_storage_space"
+    t.integer  "aggr_uncommited_storage_space"
+    t.integer  "aggr_unshared_storage_space"
+    t.date     "storage_space_updated_time"
+    t.integer  "rank"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
 
 end
