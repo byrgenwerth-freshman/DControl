@@ -8,6 +8,7 @@ CS551Project::Application.routes.draw do
   root :to => "home#index"
   match "/links/" => "links#index"
   match "/dcontrol" => "d_control#index"
+  match "/bargraph" => "bargraph#index"
   match "/dcontrol/post" => "d_control#action"
   # The priority is based upon order of creation:
   # first created -> highest priority.

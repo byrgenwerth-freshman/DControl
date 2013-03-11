@@ -1,0 +1,34 @@
+<h1>DControl</h1>
+
+<form action="/bargraph" method="GET">
+    <label>Info:</label>
+      <select name="info">
+	<option value="host">Hosts</option>
+	<option value="vms">VMs</option>
+	<option value="netflows">Netflows</option>
+      </select>
+ 
+ 
+     <label>Start Date:</label>
+     <%= select_datetime Time.now %>
+ 
+ 
+     <label>End Date:</label>
+     <%= select_datetime Time.now %>
+ 
+ 
+    <label>Compare:</label>
+    <select id='compare' name='compare'>
+        <option value="memory">Memory</option>
+        <option value="num_cpus">Number of CPUs</option>
+    </select>
+ 
+
+  <select id='items' multiple='multiple' name='items'>
+    <% for item in @selected %>
+    <option value='<%= item.id %>'><%= item.dns_name %></option>
+    <% end%>
+  </select>
+
+  <button class="btn">Submit</button>
+</form>
