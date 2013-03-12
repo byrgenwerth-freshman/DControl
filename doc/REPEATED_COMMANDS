@@ -1,0 +1,12 @@
+//Generate Host
+
+rails generate scaffold Host id:integer vsid:integer datacenter_id:integer dns_name:string ip_address:string product_name:string product_fullname:string product_vendor:string product_version:string product_build:integer product_os_type:string product_line_id:string product_api_version:float host_vendor:string host_model:string cpu_model:string cpu_count:integer cpu_core_count:integer cpu_thread_count:integer cpu_hz:integer mem_size:float cpu_power_mgmt_policy:string cpu_power_mgmt_support:string nic_count:integer hba_count:integer last_perf_time:datetime perf_refresh_rate:integer boot_time:datetime rank:integer gathered:datetime     
+
+//Destroy Host
+rails destroy scaffold Host
+
+//Generate VM
+rails generate scaffold VM id:integer vsid:integer datacenter_id:integer power_state:boolean resource_group_id:integer guest_os:string guest_family:string guest_state:string mem_size_mb:integer num_vcpu:integer num_nic:integer num_disk:integer dns_name:string host_id:integer ip_address:string boot_time:datetime memory_overhead:integer description:text annotation:text aggr_commited_storage_space:integer aggr_uncommited_storage_space:integer aggr_unshared_storage_space:integer storage_space_updated_time:datetime rank:integer gathered:datetime 
+
+//Destroy VM
+rails destroy scaffold VM
