@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
   before_filter :prepare_for_mobile
 
   private
-
+  
+  #Checks to see if it is a mobile device that is accessing the website 
   def mobile_device?
     if session[:mobile_param]
       session[:mobile_param] == "1"

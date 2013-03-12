@@ -1,30 +1,48 @@
+<!-- 
+index.html.erb
+By: Matt Owens
+
+-->
+<!------------------------------------------------------------------------------------>
 <h1>DControl</h1>
 
+<!--This is the form where you can select the info make into an AJAX request?-->
 <form action="/bargraph" method="GET">
-    <label>Info:</label>
-      <select name="info">
-	<option value="host">Hosts</option>
-	<option value="vms">VMs</option>
-	<option value="netflows">Netflows</option>
-      </select>
+  <!--This needs to change the items that are being loads -->
+  <label>Info:</label>
+  <select id="info" name="info">
+    <!--Make this be read from the DB tables rather than having to type them out.-->
+    <option value="host">Hosts</option>
+    <option value="vms">VMs</option>
+    <option value="netflows">Netflows</option>
+  </select>
+ 
+  <!--This needs to edit the selection of items -->
+  <label>Start Date:</label>
+  <%= select_datetime Time.now %>
+ 
+  <!--This needs to edit the selection of items -->
+  <label>End Date:</label>
+  <%= select_datetime Time.now %>
  
  
-     <label>Start Date:</label>
-     <%= select_datetime Time.now %>
+  <label>Compare:</label>
+  <select id='compare' name='compare'>
+    <!--This needs to be read from the columns in the DB-->
+    <option value="memory">Memory</option>
+    <option value="num_cpus">Number of CPUs</option>
+  </select>
  
- 
-     <label>End Date:</label>
-     <%= select_datetime Time.now %>
- 
- 
-    <label>Compare:</label>
-    <select id='compare' name='compare'>
-        <option value="memory">Memory</option>
-        <option value="num_cpus">Number of CPUs</option>
-    </select>
- 
+  <!--Based on this chart selection the page needs to be routed differently-->
+  <label>Chart:</label>
+  <select id="chart" name="chart">
+    <option value="barchart">Bar Chart</option>
+  </select>
 
+  <!-->
+  <!--Change this format so that multiple items can be seen. Maybe check boxes?-->
   <select id='items' multiple='multiple' name='items[]'>
+    <!--This information is being pulled from the controller-->
     <% for item in @selected %>
     <option value='<%= item.id %>'><%= item.dns_name %></option>
     <% end%>

@@ -1,14 +1,19 @@
 CS551Project::Application.routes.draw do
+  #This links the VM page
   resources :vms
 
-
+  #This links to the Host page
   resources :hosts
 
-
+  #The main page is home
   root :to => "home#index"
+  #Links to the Links page
   match "/links/" => "links#index"
+  #Links to dcontrol page
   match "/dcontrol" => "d_control#index"
+  #Links to the bargraph page
   match "/bargraph" => "bargraph#index"
+  #I don't think this is necessary anymore.
   match "/dcontrol/post" => "d_control#action"
   # The priority is based upon order of creation:
   # first created -> highest priority.
