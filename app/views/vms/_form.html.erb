@@ -16,6 +16,10 @@
     <%= f.number_field :id %>
   </div>
   <div class="field">
+    <%= f.label :vsid %><br />
+    <%= f.number_field :vsid %>
+  </div>
+  <div class="field">
     <%= f.label :datacenter_id %><br />
     <%= f.number_field :datacenter_id %>
   </div>
@@ -41,11 +45,11 @@
   </div>
   <div class="field">
     <%= f.label :mem_size_mb %><br />
-    <%= f.text_field :mem_size_mb %>
+    <%= f.number_field :mem_size_mb %>
   </div>
   <div class="field">
     <%= f.label :num_vcpu %><br />
-    <%= f.text_field :num_vcpu %>
+    <%= f.number_field :num_vcpu %>
   </div>
   <div class="field">
     <%= f.label :num_nic %><br />
@@ -69,7 +73,7 @@
   </div>
   <div class="field">
     <%= f.label :boot_time %><br />
-    <%= f.date_select :boot_time %>
+    <%= f.datetime_select :boot_time %>
   </div>
   <div class="field">
     <%= f.label :memory_overhead %><br />
@@ -85,23 +89,27 @@
   </div>
   <div class="field">
     <%= f.label :aggr_commited_storage_space %><br />
-    <%= f.text_field :aggr_commited_storage_space %>
+    <%= f.number_field :aggr_commited_storage_space %>
   </div>
   <div class="field">
     <%= f.label :aggr_uncommited_storage_space %><br />
-    <%= f.text_field :aggr_uncommited_storage_space %>
+    <%= f.number_field :aggr_uncommited_storage_space %>
   </div>
   <div class="field">
     <%= f.label :aggr_unshared_storage_space %><br />
-    <%= f.text_field :aggr_unshared_storage_space %>
+    <%= f.number_field :aggr_unshared_storage_space %>
   </div>
   <div class="field">
     <%= f.label :storage_space_updated_time %><br />
-    <%= f.date_select :storage_space_updated_time %>
+    <%= f.datetime_select :storage_space_updated_time %>
   </div>
   <div class="field">
     <%= f.label :rank %><br />
-    <%= f.text_field :rank %>
+    <%= f.number_field :rank %>
+  </div>
+  <div class="field">
+    <%= f.label :gathered %><br />
+    <%= f.datetime_select :gathered %>
   </div>
   <div class="actions">
     <%= f.submit %>

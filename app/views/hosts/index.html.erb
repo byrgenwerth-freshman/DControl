@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>Id</th>
+    <th>Vsid</th>
     <th>Datacenter</th>
     <th>Dns name</th>
     <th>Ip address</th>
@@ -14,7 +15,7 @@
     <th>Product os type</th>
     <th>Product line</th>
     <th>Product api version</th>
-    <th>Host vender</th>
+    <th>Host vendor</th>
     <th>Host model</th>
     <th>Cpu model</th>
     <th>Cpu count</th>
@@ -39,6 +40,7 @@
 <% @hosts.each do |host| %>
   <tr>
     <td><%= host.id %></td>
+    <td><%= host.vsid %></td>
     <td><%= host.datacenter_id %></td>
     <td><%= host.dns_name %></td>
     <td><%= host.ip_address %></td>
@@ -50,7 +52,7 @@
     <td><%= host.product_os_type %></td>
     <td><%= host.product_line_id %></td>
     <td><%= host.product_api_version %></td>
-    <td><%= host.host_vender %></td>
+    <td><%= host.host_vendor %></td>
     <td><%= host.host_model %></td>
     <td><%= host.cpu_model %></td>
     <td><%= host.cpu_count %></td>

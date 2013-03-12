@@ -11,9 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130228183111) do
+ActiveRecord::Schema.define(:version => 20130312071914) do
 
   create_table "hosts", :force => true do |t|
+    t.integer  "vsid"
     t.integer  "datacenter_id"
     t.string   "dns_name"
     t.string   "ip_address"
@@ -25,7 +26,7 @@ ActiveRecord::Schema.define(:version => 20130228183111) do
     t.string   "product_os_type"
     t.string   "product_line_id"
     t.float    "product_api_version"
-    t.string   "host_vender"
+    t.string   "host_vendor"
     t.string   "host_model"
     t.string   "cpu_model"
     t.integer  "cpu_count"
@@ -47,6 +48,7 @@ ActiveRecord::Schema.define(:version => 20130228183111) do
   end
 
   create_table "vms", :force => true do |t|
+    t.integer  "vsid"
     t.integer  "datacenter_id"
     t.boolean  "power_state"
     t.integer  "resource_group_id"
@@ -60,15 +62,16 @@ ActiveRecord::Schema.define(:version => 20130228183111) do
     t.string   "dns_name"
     t.integer  "host_id"
     t.string   "ip_address"
-    t.date     "boot_time"
+    t.datetime "boot_time"
     t.integer  "memory_overhead"
     t.text     "description"
     t.text     "annotation"
     t.integer  "aggr_commited_storage_space"
     t.integer  "aggr_uncommited_storage_space"
     t.integer  "aggr_unshared_storage_space"
-    t.date     "storage_space_updated_time"
+    t.datetime "storage_space_updated_time"
     t.integer  "rank"
+    t.datetime "gathered"
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
   end

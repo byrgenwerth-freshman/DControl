@@ -1,8 +1,8 @@
 CS551Project::Application.routes.draw do
-  resources :hosts
-
-
   resources :vms
+
+
+  resources :hosts
 
 
   root :to => "home#index"
