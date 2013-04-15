@@ -1,0 +1,29 @@
+<h1>Listing switches</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Dns name</th>
+    <th>Ip name</th>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @switches.each do |switch| %>
+  <tr>
+    <td><%= switch.id %></td>
+    <td><%= switch.dns_name %></td>
+    <td><%= switch.ip_name %></td>
+    <td><%= switch.name %></td>
+    <td><%= link_to 'Show', switch %></td>
+    <td><%= link_to 'Edit', edit_switch_path(switch) %></td>
+    <td><%= link_to 'Destroy', switch, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Switch', new_switch_path %>

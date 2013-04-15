@@ -1,0 +1,2 @@
+class GroupbarController < ApplicationController
+end

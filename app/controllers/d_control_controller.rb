@@ -1,68 +1,104 @@
 #d_control_controller.rb
 #By: Matt Owens
 
-#######################################################################################
+###############################################################################
 class DControlController < ApplicationController
   #Initializes the page
   def index
-    #Gets the host information
-    @selected = Host.all
-  end
-  #
-  
-  #Update the info based on the selection of which info is being parsed
-  #Need to set up route
-  def infoUpdate
-    #item = params
-    if item == host
-      # @selected = Host.all
-    elsif item == vm
-      # @selected = VM.all
-    elsif item == netflow
-      # @selected = Netflow.all
-    end
-
-  end
-  #
-  
-  #Update the info for hosts based on date
-  #Need to set up route
-  def startDateUpdate
-    date = params
-    # @selected is queried by the date
-
-  end
-  #
-  
-  #
-  #Need to set up route
-  def endDateUpdate
-    date = params
-    # @selected is queried by the date
-  end
-  #
-
-  #Update based on the choice of compare
-  #Need to set up route
-
-  #
-
-  #On submit redirect based on the chart select
-  #Need to set up route
-  def submit
-    #Redirect based on chart selected
-  end
-  #
-
-  #I don't think this is needed anymory. However could be modified so that the 
-  #redirct is in the controller.
-  def action
-    @items = params[:graph][:items]
-    @compare = params[:graph][:compare]
-
-    #render :text => "Got: #{@items} and #{@compare}"
+    info = params[:type]
+    #Set up how the view works
+    view = params[:view]
     
-    redirect_to "/bargraph/#{@items}"
+    #For single view
+    if info.to_s == 'hosts' and view.to_s == 's'
+      @selected = Host.all
+      @names = Host.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'vms' and view.to_s == 's'
+      @selected = Vm.all
+      @names = Vm.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'netflows' and view.to_s == 's'
+      @selected = Flow.all
+      @names = Flow.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    
+    #For group view
+    #Need to add distinct date as well
+    elsif info.to_s == 'hosts' and view.to_s == 'g'
+      @selected = Host.find(:all, :select => "DISTINCT datacenter_id")
+      @names = Host.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'vms' and view.to_s == 'g'
+      @selected = Vm.find(:all, :select => "DISTINCT host_id")
+      @names = Vm.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'netflows' and view.to_s == 'g'
+      @selected = Flow.find(:all, :select => "DISTINCT source_ip")
+      @names = Flow.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    
+    #For historical single view
+    elsif info.to_s == 'hosts' and view.to_s == 'hs'
+      @selected = Host.find(:all, :select => "DISTINCT dns_name")
+      @names = Host.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'vms' and view.to_s == 'hs'
+      @selected = Vm.find(:all, :select => "DISTINCT dns_name")
+      @names = Vm.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'netflows' and view.to_s == 'hs'
+      @selected = Flow.all
+      @names = Flow.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    
+    #For historical group view
+    elsif info.to_s == 'hosts' and view.to_s == 'hg'
+      @selected = Host.find(:all, :select => "DISTINCT datacenter_id")
+      @names = Host.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'vms' and view.to_s == 'hg'
+      @selected = Vm.find(:all, :select => "DISTINCT host_id")
+      @names = Vm.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    elsif info.to_s == 'netflows' and view.to_s == 'hg'
+      @selected = Flow.find(:all, :select => "DISTINCT source_ip")
+      @names = Flow.column_names
+      respond_to do |format|
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    
+    #Default load
+    else
+      @selected = Host.all
+      @names = Host.column_names
+      respond_to do |format|
+        format.html
+        format.json { render :json => {:info =>  @selected, :compare => @names}}
+      end
+    end
   end
   #
 

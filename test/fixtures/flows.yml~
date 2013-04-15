@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  source_ip: MyString
+  source_dns: MyString
+  source_port: 1
+  destination_ip: MyString
+  destination_dns: MyString
+  destination_port: 1
+  byte: MyString
+  flows: 1
+  packets: 1
+  duration: 1.5
+  protocol: MyString
+  rank: 1
+  gathered: 2013-03-19 00:12:45
+
+two:
+  id: 1
+  source_ip: MyString
+  source_dns: MyString
+  source_port: 1
+  destination_ip: MyString
+  destination_dns: MyString
+  destination_port: 1
+  byte: MyString
+  flows: 1
+  packets: 1
+  duration: 1.5
+  protocol: MyString
+  rank: 1
+  gathered: 2013-03-19 00:12:45

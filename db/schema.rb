@@ -11,7 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130312071914) do
+ActiveRecord::Schema.define(:version => 20130319041245) do
+
+  create_table "flows", :force => true do |t|
+    t.string   "source_ip"
+    t.string   "source_dns"
+    t.integer  "source_port"
+    t.string   "destination_ip"
+    t.string   "destination_dns"
+    t.integer  "destination_port"
+    t.string   "byte"
+    t.integer  "flows"
+    t.integer  "packets"
+    t.float    "duration"
+    t.string   "protocol"
+    t.integer  "rank"
+    t.datetime "gathered"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
 
   create_table "hosts", :force => true do |t|
     t.integer  "vsid"
@@ -45,6 +63,14 @@ ActiveRecord::Schema.define(:version => 20130312071914) do
     t.datetime "gathered"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
+  end
+
+  create_table "switches", :force => true do |t|
+    t.string   "dns_name"
+    t.string   "ip_name"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "vms", :force => true do |t|

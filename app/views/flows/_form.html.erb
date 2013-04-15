@@ -1,0 +1,73 @@
+<%= form_for(@flow) do |f| %>
+  <% if @flow.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@flow.errors.count, "error") %> prohibited this flow from being saved:</h2>
+
+      <ul>
+      <% @flow.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :source_ip %><br />
+    <%= f.text_field :source_ip %>
+  </div>
+  <div class="field">
+    <%= f.label :source_dns %><br />
+    <%= f.text_field :source_dns %>
+  </div>
+  <div class="field">
+    <%= f.label :source_port %><br />
+    <%= f.number_field :source_port %>
+  </div>
+  <div class="field">
+    <%= f.label :destination_ip %><br />
+    <%= f.text_field :destination_ip %>
+  </div>
+  <div class="field">
+    <%= f.label :destination_dns %><br />
+    <%= f.text_field :destination_dns %>
+  </div>
+  <div class="field">
+    <%= f.label :destination_port %><br />
+    <%= f.number_field :destination_port %>
+  </div>
+  <div class="field">
+    <%= f.label :byte %><br />
+    <%= f.text_field :byte %>
+  </div>
+  <div class="field">
+    <%= f.label :flows %><br />
+    <%= f.number_field :flows %>
+  </div>
+  <div class="field">
+    <%= f.label :packets %><br />
+    <%= f.number_field :packets %>
+  </div>
+  <div class="field">
+    <%= f.label :duration %><br />
+    <%= f.text_field :duration %>
+  </div>
+  <div class="field">
+    <%= f.label :protocol %><br />
+    <%= f.text_field :protocol %>
+  </div>
+  <div class="field">
+    <%= f.label :rank %><br />
+    <%= f.number_field :rank %>
+  </div>
+  <div class="field">
+    <%= f.label :gathered %><br />
+    <%= f.datetime_select :gathered %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,4 +1,10 @@
 CS551Project::Application.routes.draw do
+  resources :flows
+
+
+  resources :switches
+
+
   #This links the VM page
   resources :vms
 
@@ -10,11 +16,17 @@ CS551Project::Application.routes.draw do
   #Links to the Links page
   match "/links/" => "links#index"
   #Links to dcontrol page
-  match "/dcontrol" => "d_control#index"
+  match "/d_control" => "d_control#index", :vie => :get
+  #Links to the different graphs
   #Links to the bargraph page
-  match "/bargraph" => "bargraph#index"
-  #I don't think this is necessary anymore.
-  match "/dcontrol/post" => "d_control#action"
+  match "/d_control/bargraph" => "bargraph#index"
+  #Links to the group bargraph
+  match "/d_control/groupbar" => "groupbar#index"
+  #Link to the line chart
+  match "/d_control/linechart" => "linechart#index"
+  #Link to network flow graph
+  match "/d_control/flowgraph" => "networkflowgraph#index"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

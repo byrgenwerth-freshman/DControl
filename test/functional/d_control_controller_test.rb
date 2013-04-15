@@ -6,6 +6,7 @@
 require 'test_helper'
 
 class DControlControllerTest < ActionController::TestCase
+=begin
   test "getIndex" do
     get :index
     assert_response :success
@@ -13,6 +14,6 @@ class DControlControllerTest < ActionController::TestCase
     assert_not_nil assigns(:posts)
 
   end
-
+=end
 
 end

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @switch.id %>
+</p>
+
+<p>
+  <b>Dns name:</b>
+  <%= @switch.dns_name %>
+</p>
+
+<p>
+  <b>Ip name:</b>
+  <%= @switch.ip_name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @switch.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_switch_path(@switch) %> |
+<%= link_to 'Back', switches_path %>

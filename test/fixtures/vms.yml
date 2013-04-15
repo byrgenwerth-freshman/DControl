@@ -28,7 +28,7 @@ one:
   gathered: 2013-03-12 03:19:14
 
 two:
-  id: 1
+  id: 2
   vsid: 1
   datacenter_id: 1
   power_state: false

@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @flow.id %>
+</p>
+
+<p>
+  <b>Source ip:</b>
+  <%= @flow.source_ip %>
+</p>
+
+<p>
+  <b>Source dns:</b>
+  <%= @flow.source_dns %>
+</p>
+
+<p>
+  <b>Source port:</b>
+  <%= @flow.source_port %>
+</p>
+
+<p>
+  <b>Destination ip:</b>
+  <%= @flow.destination_ip %>
+</p>
+
+<p>
+  <b>Destination dns:</b>
+  <%= @flow.destination_dns %>
+</p>
+
+<p>
+  <b>Destination port:</b>
+  <%= @flow.destination_port %>
+</p>
+
+<p>
+  <b>Byte:</b>
+  <%= @flow.byte %>
+</p>
+
+<p>
+  <b>Flows:</b>
+  <%= @flow.flows %>
+</p>
+
+<p>
+  <b>Packets:</b>
+  <%= @flow.packets %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%= @flow.duration %>
+</p>
+
+<p>
+  <b>Protocol:</b>
+  <%= @flow.protocol %>
+</p>
+
+<p>
+  <b>Rank:</b>
+  <%= @flow.rank %>
+</p>
+
+<p>
+  <b>Gathered:</b>
+  <%= @flow.gathered %>
+</p>
+
+
+<%= link_to 'Edit', edit_flow_path(@flow) %> |
+<%= link_to 'Back', flows_path %>

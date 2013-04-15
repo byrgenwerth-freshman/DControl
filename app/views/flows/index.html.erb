@@ -1,0 +1,49 @@
+<h1>Listing flows</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Source ip</th>
+    <th>Source dns</th>
+    <th>Source port</th>
+    <th>Destination ip</th>
+    <th>Destination dns</th>
+    <th>Destination port</th>
+    <th>Byte</th>
+    <th>Flows</th>
+    <th>Packets</th>
+    <th>Duration</th>
+    <th>Protocol</th>
+    <th>Rank</th>
+    <th>Gathered</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @flows.each do |flow| %>
+  <tr>
+    <td><%= flow.id %></td>
+    <td><%= flow.source_ip %></td>
+    <td><%= flow.source_dns %></td>
+    <td><%= flow.source_port %></td>
+    <td><%= flow.destination_ip %></td>
+    <td><%= flow.destination_dns %></td>
+    <td><%= flow.destination_port %></td>
+    <td><%= flow.byte %></td>
+    <td><%= flow.flows %></td>
+    <td><%= flow.packets %></td>
+    <td><%= flow.duration %></td>
+    <td><%= flow.protocol %></td>
+    <td><%= flow.rank %></td>
+    <td><%= flow.gathered %></td>
+    <td><%= link_to 'Show', flow %></td>
+    <td><%= link_to 'Edit', edit_flow_path(flow) %></td>
+    <td><%= link_to 'Destroy', flow, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Flow', new_flow_path %>

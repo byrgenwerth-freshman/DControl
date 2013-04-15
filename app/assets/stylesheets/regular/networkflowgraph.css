@@ -1,0 +1,16 @@
+/*
+Network FLow
+Taken from http://bl.ocks.org/mbostock/4062045
+Edited by Matt Owens
+
+*/
+
+node {
+  stroke: #fff;
+  stroke-width: 100.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}

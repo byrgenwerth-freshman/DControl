@@ -1,7 +1,7 @@
 //Generate Host
 
-rails generate scaffold Host id:integer vsid:integer datacenter_id:integer dns_name:string ip_address:string product_name:string product_fullname:string product_vendor:string product_version:string product_build:integer product_os_type:string product_line_id:string product_api_version:float host_vendor:string host_model:string cpu_model:string cpu_count:integer cpu_core_count:integer cpu_thread_count:integer cpu_hz:integer mem_size:float cpu_power_mgmt_policy:string cpu_power_mgmt_support:string nic_count:integer hba_count:integer last_perf_time:datetime perf_refresh_rate:integer boot_time:datetime rank:integer gathered:datetime     
-
+rails generate scaffold Host id:integer vsid:integer datacenter_id:integer dns_name:string ip_address:string product_name:string product_fullname:string product_vendor:string product_version:string product_build:integer product_os_type:string product_line_id:string product_api_version:float host_vendor:string host_model:string cpu_model:string cpu_count:integer cpu_core_count:integer cpu_thread_count:integer cpu_hz:integer mem_size:float cpu_power_mgmt_policy:string cpu_power_mgmt_support:string nic_count:integer hba_count:integer last_perf_time:datetime perf_refresh_rate:integer boot_time:datetime rank:integer gathered:datetime
+    
 //Destroy Host
 rails destroy scaffold Host
 
@@ -10,3 +10,15 @@ rails generate scaffold VM id:integer vsid:integer datacenter_id:integer power_s
 
 //Destroy VM
 rails destroy scaffold VM
+
+//Generate Flow
+rails generate scaffold Flow id:integer source_ip:string source_dns:string source_port:integer destination_ip:string destination_dns:string destination_port:integer byte:string flows:integer packets:integer duration:float protocol:string rank:integer gathered:datetime
+
+//Destroy Flow
+rails destroy scaffold Flow
+
+//Generate Switch
+rails generate scaffold Switch id:integer dns_name:string ip_name:string name:string
+
+//Destroy Flow
+rails destroy scaffold Flow

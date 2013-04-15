@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class VmTest < ActiveSupport::TestCase
+class VMTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
