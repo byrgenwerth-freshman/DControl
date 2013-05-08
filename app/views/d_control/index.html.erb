@@ -7,7 +7,7 @@ By: Matt Owens
 <h1>DControl</h1>
 
 <!--This is the form where you can select the info make into an AJAX request?-->
-<form id='theForm' action="/dcontrol/bargraph" method="GET">
+<form id='theForm' action="/d_control/bargraph" method="GET">
   <!--This needs to change the items that are being loads -->
   <label>Info:</label>
   <select id="info" name="info">
@@ -29,11 +29,11 @@ By: Matt Owens
  
   <!--This needs to edit the selection of items -->
   <label>Start Date:</label>
-  <%= select_datetime Time.now %>
+  <%= select_datetime Time.now, :prefix => :start_date %>
  
   <!--This needs to edit the selection of items -->
   <label>End Date:</label>
-  <%= select_datetime Time.now %>
+  <%= select_datetime Time.now, :prefix => :end_date %>
  
  
   <label>Compare:</label>

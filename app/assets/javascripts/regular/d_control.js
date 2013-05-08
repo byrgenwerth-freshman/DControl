@@ -34,14 +34,7 @@ $(document).ready(function(){
 	//Need a function that updates the items based on info selection
         $("select[id='info']").change(function(){
                 info = $(this).val();
-		$("#compare").children().remove();            
-		$('tr').remove();
-                //This will send a post to the controller to update the page
-		var jInfo = {"type": String(info), "view": String(view)};
-		console.log(jInfo);
-		$.post('/d_control', jInfo, function(data){
-			postToController(data);
-		    }, "json");
+		updateList(info, view, start_date, end_date);
 	    });
         //                
 
@@ -49,13 +42,7 @@ $(document).ready(function(){
 	//This function updates the items based on the view.
 	$("select[id='view']").change(function(){
 		view = $(this).val();
-		$("#compare").children().remove();
-		$('tr').remove();
-		var jView = {"type": String(info), "view": String(view)};
-		console.log(jView);
-		$.post('/d_control', jView, function(data){
-			postToController(data);
-		    }, "json");
+		updateList(info, view, start_date, end_date);
 	    });
 	//
 
@@ -69,14 +56,67 @@ $(document).ready(function(){
 	//
 
 	
-	
-	
-	//Need a function that updates the items based off of Start Date      
+	var start_date = "1900-1-1";
+	var start_date_year = 1900;
+	var start_date_month = 1;
+	var start_date_day = 1;
+	//Start Date Functions      
+	$("select[id='start_date_year']").change(function(){
+		start_date_year = $(this).val();
+		start_date = (start_date_year + "-" 
+			      + start_date_month + "-" 
+			      + start_date_day);
+		console.log(start_date);
+		updateList(info, view, start_date, end_date);
+	    });
 
+	$("select[id='start_date_month']").change(function(){
+		start_date_month = $(this).val();
+		start_date = (start_date_year + "-"
+                              + start_date_month + "-"
+                              + start_date_day);
+		console.log(start_date);
+		updateList(info, view, start_date, end_date);
+	    });
+	
+	$("select[id='start_date_day']").change(function(){
+		start_date_day = $(this).val();
+		start_date = (start_date_year + "-"
+                              + start_date_month + "-"
+                              + start_date_day);
+		console.log(start_date);
+		updateList(info, view, start_date, end_date);
+	    });
 
         //                                                                    
+	
+	var end_date = "5000-12-31";
+	var end_date_year = 5000;
+	var end_date_month = 12;
+	var end_date_day = 31;
+        //End Date Functions
+	$("select[id='end_date_year']").change(function(){
+		end_date_year = $(this).val();
+		end_date = (end_date_year + "-"
+                              + end_date_month + "-"
+                              + end_date_day);
+		updateList(info, view, start_date, end_date);
+            });
+	$("select[id='end_date_month']").change(function(){
+		end_date_month = $(this).val();
+		start_date = (end_date_year + "-"
+                              + end_date_month + "-"
+                              + end_date_day);
+		updateList(info, view, start_date, end_date);
+            });
 
-        //Need a function that update the itemes based off of the End Date
+        $("select[id='end_date_day']").change(function(){
+		end_date_day = $(this).val();
+		start_date = (end_date_year + "-"
+                              + end_date_month + "-"
+                              + end_date_day);
+		updateList(info, view, start_date, end_date);
+            });
 
  
         //    
@@ -134,7 +174,7 @@ $(document).ready(function(){
                             $('tbody').append('<tr id="dyTR"><td><input '
                                               +'type="checkbox" name="items[]" value="'
                                               + data.datacenter_id
-                                              +'"><td>'
+					      + '"><td>'
                                               + data.datacenter_id
 					      + '</td><td>'
 					      + data.gathered
@@ -343,6 +383,17 @@ $(document).ready(function(){
 		);
 
 
+	}
+	function updateList(info, view, start_date, end_date){
+	    $("#compare").children().remove();
+	    $('tr').remove();
+	    var jInfo = {"type": String(info),
+			 "view": String(view),
+			 "start_date": String(start_date),
+			 "end_date": String(end_date)};
+	    $.post('/d_control', jInfo, function(data){
+		    postToController(data);
+		} ,"json");
 	}
     });
 //           

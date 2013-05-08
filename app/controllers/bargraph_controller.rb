@@ -20,45 +20,53 @@ class BargraphController < ApplicationController
     if !session[:items].nil?
       if session[:info].to_s == 'hosts'
         if session[:view].to_s == 's'
-          @data = Host.find(session[:items], :select => session[:compare])
-          @record = Host.find(session[:items])
+          @data = Host.find(session[:items], :select => session[:compare] + ", dns_name, gathered, datacenter_id")
         elsif session[:view].to_s == 'g'
-          @data = Host.where("datacenter_id = ?", session[:items]).select(session[:compare])
-          @record = Host.find(session[:items])
+          #id = ""
+          #gathered = "" 
+          #Fix
+          #session[:items].each do |item|           
+          #  names = JSON.parse(item.gsub("'", '"'), {:symbolize_names => true})
+          #  logger.info(names[:id])
+          #  logger.info(names[:gathered])
+          #  id = id + "," + names[:id]
+          #  gathered = gathered + "," + names[:gathered]
+          #  logger.info(id)
+          #end
+          #id = id[1..-1]
+          #gathered = id[1..-1]
+          #logger.info(id)
+          @data = Host.where("datacenter_id IN (?)", session[:items]).select(session[:compare] + ", dns_name, gathered, datacenter_id")
+        #Needs to be fixed
         elsif session[:view].to_s == 'hs'
-          @data = Host.find(session[:items], :select => session[:compare])
-          @record = Host.find(session[:items])
+          @data = Host.where("dns_name IN (?)", session[:items]).select(session[:compare] + ", dns_name, gathered, datacenter_id")
         elsif session[:view].to_s == 'hg'
-          @data = Host.where("datacenter_id = ?", session[:items]).select(session[:compare])
-          @record = Host.find(session[:items])
+          @data = Host.where("datacenter_id IN (?)", session[:items]).select(session[:compare] + ", dns_name, gathered, datacenter_id")
         end
       elsif session[:info].to_s == 'vms'
         if session[:view].to_s == 's'
-          @data = Vm.find(session[:items], :select => session[:compare])
-          @record = Vm.find(session[:items])
+          @data = Vm.find(session[:items], :select => session[:compare] + ", dns_name, gathered, host_id")
+        
         elsif session[:view].to_s == 'g'          
-          @data = Vm.where("host_id IN (?)", session[:items]).select(session[:compare])
-          @record = Vm.find(session[:items])
+          @data = Vm.where("host_id IN (?)", session[:items]).select(session[:compare] + ", dns_name,gathered, host_id")
+        
         elsif session[:view].to_s == 'hs'
-          @data = Vm.find(session[:items], :select => session[:compare])
-          @record = Vm.find(session[:items])
+          @data = Vm.find(session[:items], :select => session[:compare] + ", dns_name, gathered, host_id")
+        
         elsif session[:view].to_s == 'hg'
-          @data = Vm.where("host_id IN (?)", session[:items]).select(session[:compare])
-          @record = Vm.find(session[:items])
+          @data = Vm.where("host_id IN (?)", session[:items]).select(session[:compare] + ", dns_name, gathered, host_id")
         end
       elsif session[:info].to_s == 'netflows'
         if session[:view].to_s == 's'
-          @data = Flow.find(session[:items], :select => session[:compare])
-          @record = Flow.find(session[:items])
+          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
+
         elsif session[:view].to_s == 'g'
-          @data = Flow.find(session[:items], :select => session[:compare])
-          @record = Flow.find(session[:items])
+          @data = Flow.where("source_id IN (?)", session[:items]).select(session[:compare] + ", gathered, destination_ip, source_ip")
         elsif session[:view].to_s == 'hs'
-          @data = Flow.find(session[:items], :select => session[:compare])
-          @record = Flow.find(session[:items])
+          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
+
         elsif session[:view].to_s == 'hg'
-          @data = Flow.find(session[:items], :select => session[:compare])
-          @record = Flow.find(session[:items])
+          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
         end
       end
     end
@@ -68,7 +76,6 @@ class BargraphController < ApplicationController
     
     #Need to look up the dns_names and the item to be compared base on the ids
     #passed in items.
-    compare = session[:compare]
 
     respond_to do |format|
       format.html
