@@ -23,11 +23,11 @@ rails generate scaffold Switch id:integer model:string cisco_pro_name:string cis
 //Destroy Switch
 rails destroy scaffold Switch
 
-//Generate Module
-rails generate scaffold Module id:integer model:string description:string serial_num:string hw:float sw:string fw:string switch_id:int gathered:datetime
+//Generate Switch Module
+rails generate scaffold SwitchModule id:integer model:string description:string serial_num:string hw:float sw:string fw:string switch_id:integer gathered:datetime
 
-//Destroy Module
-rails destroy scaffold Module
+//Destroy Switch Module
+rails destroy scaffold SwitchModule
 
 //Generate Port
 rails generate scaffold Port id:integer port:string vlan:string state:string days_inactive:integer speed:string duplex:string port_label:string what_via_cpd:string mac_address:string nic_manufacturer:string ip_address:string dns_name:string gathered:datetime

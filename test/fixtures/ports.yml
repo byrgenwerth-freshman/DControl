@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  port: MyString
+  vlan: MyString
+  state: MyString
+  days_inactive: 1
+  speed: MyString
+  duplex: MyString
+  port_label: MyString
+  what_via_cpd: MyString
+  mac_address: MyString
+  nic_manufacturer: MyString
+  ip_address: MyString
+  dns_name: MyString
+  gathered: 2013-05-29 13:23:26
+
+two:
+  id: 1
+  port: MyString
+  vlan: MyString
+  state: MyString
+  days_inactive: 1
+  speed: MyString
+  duplex: MyString
+  port_label: MyString
+  what_via_cpd: MyString
+  mac_address: MyString
+  nic_manufacturer: MyString
+  ip_address: MyString
+  dns_name: MyString
+  gathered: 2013-05-29 13:23:26

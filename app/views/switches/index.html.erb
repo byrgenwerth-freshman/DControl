@@ -3,9 +3,14 @@
 <table>
   <tr>
     <th>Id</th>
-    <th>Dns name</th>
-    <th>Ip name</th>
-    <th>Name</th>
+    <th>Model</th>
+    <th>Cisco pro name</th>
+    <th>Cisco pro com</th>
+    <th>Sys desc</th>
+    <th>Sys name</th>
+    <th>Sys uptime</th>
+    <th>Gathered</th>
+    <th>Location</th>
     <th></th>
     <th></th>
     <th></th>
@@ -14,9 +19,14 @@
 <% @switches.each do |switch| %>
   <tr>
     <td><%= switch.id %></td>
-    <td><%= switch.dns_name %></td>
-    <td><%= switch.ip_name %></td>
-    <td><%= switch.name %></td>
+    <td><%= switch.model %></td>
+    <td><%= switch.cisco_pro_name %></td>
+    <td><%= switch.cisco_pro_com %></td>
+    <td><%= switch.sys_desc %></td>
+    <td><%= switch.sys_name %></td>
+    <td><%= switch.sys_uptime %></td>
+    <td><%= switch.gathered %></td>
+    <td><%= switch.location %></td>
     <td><%= link_to 'Show', switch %></td>
     <td><%= link_to 'Edit', edit_switch_path(switch) %></td>
     <td><%= link_to 'Destroy', switch, method: :delete, data: { confirm: 'Are you sure?' } %></td>

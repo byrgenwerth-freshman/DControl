@@ -2,12 +2,22 @@
 
 one:
   id: 1
-  dns_name: MyString
-  ip_name: MyString
-  name: MyString
+  model: MyString
+  cisco_pro_name: MyString
+  cisco_pro_com: MyString
+  sys_desc: MyString
+  sys_name: MyString
+  sys_uptime: MyString
+  gathered: 2013-05-29 13:22:25
+  location: MyString
 
 two:
-  id: 2
-  dns_name: MyString
-  ip_name: MyString
-  name: MyString
+  id: 1
+  model: MyString
+  cisco_pro_name: MyString
+  cisco_pro_com: MyString
+  sys_desc: MyString
+  sys_name: MyString
+  sys_uptime: MyString
+  gathered: 2013-05-29 13:22:25
+  location: MyString

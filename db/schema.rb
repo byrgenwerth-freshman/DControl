@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130319041245) do
+ActiveRecord::Schema.define(:version => 20130529183223) do
 
   create_table "flows", :force => true do |t|
     t.string   "source_ip"
@@ -65,12 +65,48 @@ ActiveRecord::Schema.define(:version => 20130319041245) do
     t.datetime "updated_at",             :null => false
   end
 
-  create_table "switches", :force => true do |t|
+  create_table "ports", :force => true do |t|
+    t.string   "port"
+    t.string   "vlan"
+    t.string   "state"
+    t.integer  "days_inactive"
+    t.string   "speed"
+    t.string   "duplex"
+    t.string   "port_label"
+    t.string   "what_via_cpd"
+    t.string   "mac_address"
+    t.string   "nic_manufacturer"
+    t.string   "ip_address"
     t.string   "dns_name"
-    t.string   "ip_name"
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "gathered"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "switch_modules", :force => true do |t|
+    t.string   "model"
+    t.string   "description"
+    t.string   "serial_num"
+    t.float    "hw"
+    t.string   "sw"
+    t.string   "fw"
+    t.integer  "switch_id"
+    t.datetime "gathered"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "switches", :force => true do |t|
+    t.string   "model"
+    t.string   "cisco_pro_name"
+    t.string   "cisco_pro_com"
+    t.string   "sys_desc"
+    t.string   "sys_name"
+    t.string   "sys_uptime"
+    t.datetime "gathered"
+    t.string   "location"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "vms", :force => true do |t|

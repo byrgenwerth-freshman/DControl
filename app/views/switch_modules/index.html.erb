@@ -1,0 +1,39 @@
+<h1>Listing switch_modules</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Model</th>
+    <th>Description</th>
+    <th>Serial num</th>
+    <th>Hw</th>
+    <th>Sw</th>
+    <th>Fw</th>
+    <th>Switch</th>
+    <th>Gathered</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @switch_modules.each do |switch_module| %>
+  <tr>
+    <td><%= switch_module.id %></td>
+    <td><%= switch_module.model %></td>
+    <td><%= switch_module.description %></td>
+    <td><%= switch_module.serial_num %></td>
+    <td><%= switch_module.hw %></td>
+    <td><%= switch_module.sw %></td>
+    <td><%= switch_module.fw %></td>
+    <td><%= switch_module.switch_id %></td>
+    <td><%= switch_module.gathered %></td>
+    <td><%= link_to 'Show', switch_module %></td>
+    <td><%= link_to 'Edit', edit_switch_module_path(switch_module) %></td>
+    <td><%= link_to 'Destroy', switch_module, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Switch module', new_switch_module_path %>

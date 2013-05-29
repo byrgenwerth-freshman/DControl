@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @port.id %>
+</p>
+
+<p>
+  <b>Port:</b>
+  <%= @port.port %>
+</p>
+
+<p>
+  <b>Vlan:</b>
+  <%= @port.vlan %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @port.state %>
+</p>
+
+<p>
+  <b>Days inactive:</b>
+  <%= @port.days_inactive %>
+</p>
+
+<p>
+  <b>Speed:</b>
+  <%= @port.speed %>
+</p>
+
+<p>
+  <b>Duplex:</b>
+  <%= @port.duplex %>
+</p>
+
+<p>
+  <b>Port label:</b>
+  <%= @port.port_label %>
+</p>
+
+<p>
+  <b>What via cpd:</b>
+  <%= @port.what_via_cpd %>
+</p>
+
+<p>
+  <b>Mac address:</b>
+  <%= @port.mac_address %>
+</p>
+
+<p>
+  <b>Nic manufacturer:</b>
+  <%= @port.nic_manufacturer %>
+</p>
+
+<p>
+  <b>Ip address:</b>
+  <%= @port.ip_address %>
+</p>
+
+<p>
+  <b>Dns name:</b>
+  <%= @port.dns_name %>
+</p>
+
+<p>
+  <b>Gathered:</b>
+  <%= @port.gathered %>
+</p>
+
+
+<%= link_to 'Edit', edit_port_path(@port) %> |
+<%= link_to 'Back', ports_path %>

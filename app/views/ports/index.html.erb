@@ -1,0 +1,49 @@
+<h1>Listing ports</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Port</th>
+    <th>Vlan</th>
+    <th>State</th>
+    <th>Days inactive</th>
+    <th>Speed</th>
+    <th>Duplex</th>
+    <th>Port label</th>
+    <th>What via cpd</th>
+    <th>Mac address</th>
+    <th>Nic manufacturer</th>
+    <th>Ip address</th>
+    <th>Dns name</th>
+    <th>Gathered</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ports.each do |port| %>
+  <tr>
+    <td><%= port.id %></td>
+    <td><%= port.port %></td>
+    <td><%= port.vlan %></td>
+    <td><%= port.state %></td>
+    <td><%= port.days_inactive %></td>
+    <td><%= port.speed %></td>
+    <td><%= port.duplex %></td>
+    <td><%= port.port_label %></td>
+    <td><%= port.what_via_cpd %></td>
+    <td><%= port.mac_address %></td>
+    <td><%= port.nic_manufacturer %></td>
+    <td><%= port.ip_address %></td>
+    <td><%= port.dns_name %></td>
+    <td><%= port.gathered %></td>
+    <td><%= link_to 'Show', port %></td>
+    <td><%= link_to 'Edit', edit_port_path(port) %></td>
+    <td><%= link_to 'Destroy', port, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Port', new_port_path %>

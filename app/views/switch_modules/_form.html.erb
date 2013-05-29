@@ -1,0 +1,53 @@
+<%= form_for(@switch_module) do |f| %>
+  <% if @switch_module.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@switch_module.errors.count, "error") %> prohibited this switch_module from being saved:</h2>
+
+      <ul>
+      <% @switch_module.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :serial_num %><br />
+    <%= f.text_field :serial_num %>
+  </div>
+  <div class="field">
+    <%= f.label :hw %><br />
+    <%= f.text_field :hw %>
+  </div>
+  <div class="field">
+    <%= f.label :sw %><br />
+    <%= f.text_field :sw %>
+  </div>
+  <div class="field">
+    <%= f.label :fw %><br />
+    <%= f.text_field :fw %>
+  </div>
+  <div class="field">
+    <%= f.label :switch_id %><br />
+    <%= f.number_field :switch_id %>
+  </div>
+  <div class="field">
+    <%= f.label :gathered %><br />
+    <%= f.datetime_select :gathered %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

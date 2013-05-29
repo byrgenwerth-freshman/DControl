@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class SwitchesControllerTest < ActionController::TestCase
-=begin
   setup do
     @switch = switches(:one)
   end
@@ -19,7 +18,7 @@ class SwitchesControllerTest < ActionController::TestCase
 
   test "should create switch" do
     assert_difference('Switch.count') do
-      post :create, switch: { dns_name: @switch.dns_name, id: @switch.id, ip_name: @switch.ip_name, name: @switch.name }
+      post :create, switch: { cisco_pro_com: @switch.cisco_pro_com, cisco_pro_name: @switch.cisco_pro_name, gathered: @switch.gathered, id: @switch.id, location: @switch.location, model: @switch.model, sys_desc: @switch.sys_desc, sys_name: @switch.sys_name, sys_uptime: @switch.sys_uptime }
     end
 
     assert_redirected_to switch_path(assigns(:switch))
@@ -36,7 +35,7 @@ class SwitchesControllerTest < ActionController::TestCase
   end
 
   test "should update switch" do
-    put :update, id: @switch, switch: { dns_name: @switch.dns_name, id: @switch.id, ip_name: @switch.ip_name, name: @switch.name }
+    put :update, id: @switch, switch: { cisco_pro_com: @switch.cisco_pro_com, cisco_pro_name: @switch.cisco_pro_name, gathered: @switch.gathered, id: @switch.id, location: @switch.location, model: @switch.model, sys_desc: @switch.sys_desc, sys_name: @switch.sys_name, sys_uptime: @switch.sys_uptime }
     assert_redirected_to switch_path(assigns(:switch))
   end
 
@@ -47,5 +46,4 @@ class SwitchesControllerTest < ActionController::TestCase
 
     assert_redirected_to switches_path
   end
-=end
 end

@@ -16,16 +16,36 @@
     <%= f.number_field :id %>
   </div>
   <div class="field">
-    <%= f.label :dns_name %><br />
-    <%= f.text_field :dns_name %>
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
   </div>
   <div class="field">
-    <%= f.label :ip_name %><br />
-    <%= f.text_field :ip_name %>
+    <%= f.label :cisco_pro_name %><br />
+    <%= f.text_field :cisco_pro_name %>
   </div>
   <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
+    <%= f.label :cisco_pro_com %><br />
+    <%= f.text_field :cisco_pro_com %>
+  </div>
+  <div class="field">
+    <%= f.label :sys_desc %><br />
+    <%= f.text_field :sys_desc %>
+  </div>
+  <div class="field">
+    <%= f.label :sys_name %><br />
+    <%= f.text_field :sys_name %>
+  </div>
+  <div class="field">
+    <%= f.label :sys_uptime %><br />
+    <%= f.text_field :sys_uptime %>
+  </div>
+  <div class="field">
+    <%= f.label :gathered %><br />
+    <%= f.datetime_select :gathered %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
   </div>
   <div class="actions">
     <%= f.submit %>

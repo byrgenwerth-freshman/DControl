@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @switch_module.id %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @switch_module.model %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @switch_module.description %>
+</p>
+
+<p>
+  <b>Serial num:</b>
+  <%= @switch_module.serial_num %>
+</p>
+
+<p>
+  <b>Hw:</b>
+  <%= @switch_module.hw %>
+</p>
+
+<p>
+  <b>Sw:</b>
+  <%= @switch_module.sw %>
+</p>
+
+<p>
+  <b>Fw:</b>
+  <%= @switch_module.fw %>
+</p>
+
+<p>
+  <b>Switch:</b>
+  <%= @switch_module.switch_id %>
+</p>
+
+<p>
+  <b>Gathered:</b>
+  <%= @switch_module.gathered %>
+</p>
+
+
+<%= link_to 'Edit', edit_switch_module_path(@switch_module) %> |
+<%= link_to 'Back', switch_modules_path %>

@@ -1,0 +1,1322 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-29 13:23:52 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Compiled regular/application.css  (0ms)  (pid 15588)
+Compiled regular/bargraph.css  (0ms)  (pid 15588)
+Compiled regular/bootstrap_and_overrides.css  (3442ms)  (pid 15588)
+Compiled regular/d_control.css  (0ms)  (pid 15588)
+Compiled regular/home.css  (1ms)  (pid 15588)
+Compiled regular/networkflowgraph.css  (0ms)  (pid 15588)
+Compiled application-regular.css  (3508ms)  (pid 15588)
+Compiled jquery.js  (8ms)  (pid 15588)
+Compiled jquery_ujs.js  (0ms)  (pid 15588)
+Compiled bootstrap-transition.js  (0ms)  (pid 15588)
+Compiled bootstrap-affix.js  (0ms)  (pid 15588)
+Compiled bootstrap-alert.js  (0ms)  (pid 15588)
+Compiled bootstrap-button.js  (0ms)  (pid 15588)
+Compiled bootstrap-carousel.js  (0ms)  (pid 15588)
+Compiled bootstrap-collapse.js  (0ms)  (pid 15588)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 15588)
+Compiled bootstrap-modal.js  (0ms)  (pid 15588)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 15588)
+Compiled bootstrap-tab.js  (0ms)  (pid 15588)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 15588)
+Compiled bootstrap-popover.js  (0ms)  (pid 15588)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 15588)
+Compiled bootstrap.js  (99ms)  (pid 15588)
+Compiled regular/application.js  (216ms)  (pid 15588)
+Compiled regular/d_control.js  (0ms)  (pid 15588)
+Compiled regular/home.js  (281ms)  (pid 15588)
+Compiled application-regular.js  (513ms)  (pid 15588)
+Compiled d3.v3.min.js  (2ms)  (pid 15588)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 4273ms (Views: 4272.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /application-regular.css - 200 OK (61ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/application.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/d_control.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/home.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/bargraph.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:56 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (47ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /application-regular.js - 200 OK (26ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap.js - 200 OK (16ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /regular/d_control.js - 200 OK (2ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /regular/application.js - 200 OK (69ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /regular/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Served asset /d3.v3.min.js - 200 OK (2ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:23:57 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (2.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 182ms (Views: 80.0ms | ActiveRecord: 56.7ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Processing by DControlController#index as HTML
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (0.8ms)[0m  SELECT "hosts".* FROM "hosts" 
+  Rendered d_control/index.html.erb within layouts/application (150.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 180ms (Views: 174.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /application-regular.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/bargraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/application.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/d_control.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /application-regular.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/application.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/d_control.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /regular/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:23:59 -0500
+Served asset /d3.v3.min.js - 200 OK (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:24:00 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (0.8ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 53ms (Views: 47.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/Switch" for 127.0.0.1 at 2013-05-29 13:24:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Switch"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/switch" for 127.0.0.1 at 2013-05-29 13:24:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/switch"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/switchs" for 127.0.0.1 at 2013-05-29 13:25:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/switchs"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matthewowens/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/switches" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Processing by SwitchesController#index as HTML
+  [1m[35mSwitch Load (0.1ms)[0m  SELECT "switches".* FROM "switches" 
+  Rendered switches/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/application.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/bargraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/d_control.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /application-regular.css - 200 OK (2ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /application-regular.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /regular/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:19 -0500
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /regular/application.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /regular/d_control.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /d3.v3.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /regular/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:25:20 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (0.7ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 51ms (Views: 46.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/ports" for 127.0.0.1 at 2013-05-29 13:25:55 -0500
+Processing by PortsController#index as HTML
+Completed 500 Internal Server Error in 56ms
+
+ActiveRecord::StatementInvalid (Could not find table 'ports'):
+  app/controllers/ports_controller.rb:5:in `index'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/ports/new" for 127.0.0.1 at 2013-05-29 13:26:14 -0500
+Processing by PortsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'ports'):
+  app/controllers/ports_controller.rb:27:in `new'
+  app/controllers/ports_controller.rb:27:in `new'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/switch_modules" for 127.0.0.1 at 2013-05-29 13:26:29 -0500
+Processing by SwitchModulesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'switch_modules'):
+  app/controllers/switch_modules_controller.rb:5:in `index'
+
+
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/matthewowens/.rvm/gems/ruby-2.0.0-p195/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateHosts (20130312053833)
+Migrating to CreateVms (20130312071914)
+Migrating to CreateFlows (20130319041245)
+Migrating to CreateSwitches (20130529182225)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "switches" already exists: CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "flows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "source_ip" varchar(255), "source_dns" varchar(255), "source_port" integer, "destination_ip" varchar(255), "destination_dns" varchar(255), "destination_port" integer, "byte" varchar(255), "flows" integer, "packets" integer, "duration" float, "protocol" varchar(255), "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "hosts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "dns_name" varchar(255), "ip_address" varchar(255), "product_name" varchar(255), "product_fullname" varchar(255), "product_vendor" varchar(255), "product_version" varchar(255), "product_build" integer, "product_os_type" varchar(255), "product_line_id" varchar(255), "product_api_version" float, "host_vendor" varchar(255), "host_model" varchar(255), "cpu_model" varchar(255), "cpu_count" integer, "cpu_core_count" integer, "cpu_thread_count" integer, "cpu_hz" integer, "mem_size" float, "cpu_power_mgmt_policy" varchar(255), "cpu_power_mgmt_support" varchar(255), "nic_count" integer, "hba_count" integer, "last_perf_time" datetime, "perf_refresh_rate" integer, "boot_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.3ms)[0m  CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "dns_name" varchar(255), "ip_name" varchar(255), "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "vms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "power_state" boolean, "resource_group_id" integer, "guest_os" varchar(255), "guest_family" varchar(255), "guest_state" varchar(255), "mem_size_mb" integer, "num_vcpu" integer, "num_nic" integer, "num_disk" integer, "dns_name" varchar(255), "host_id" integer, "ip_address" varchar(255), "boot_time" datetime, "memory_overhead" integer, "description" text, "annotation" text, "aggr_commited_storage_space" integer, "aggr_uncommited_storage_space" integer, "aggr_unshared_storage_space" integer, "storage_space_updated_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130319041245')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130312053833')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130312071914')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateHosts (20130312053833)
+Migrating to CreateVms (20130312071914)
+Migrating to CreateFlows (20130319041245)
+Migrating to CreateSwitches (20130529182225)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "switches" already exists: CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateHosts (20130312053833)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "hosts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "dns_name" varchar(255), "ip_address" varchar(255), "product_name" varchar(255), "product_fullname" varchar(255), "product_vendor" varchar(255), "product_version" varchar(255), "product_build" integer, "product_os_type" varchar(255), "product_line_id" varchar(255), "product_api_version" float, "host_vendor" varchar(255), "host_model" varchar(255), "cpu_model" varchar(255), "cpu_count" integer, "cpu_core_count" integer, "cpu_thread_count" integer, "cpu_hz" integer, "mem_size" float, "cpu_power_mgmt_policy" varchar(255), "cpu_power_mgmt_support" varchar(255), "nic_count" integer, "hba_count" integer, "last_perf_time" datetime, "perf_refresh_rate" integer, "boot_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312053833')[0m
+  [1m[35m (2.3ms)[0m  commit transaction
+Migrating to CreateVms (20130312071914)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "vms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "power_state" boolean, "resource_group_id" integer, "guest_os" varchar(255), "guest_family" varchar(255), "guest_state" varchar(255), "mem_size_mb" integer, "num_vcpu" integer, "num_nic" integer, "num_disk" integer, "dns_name" varchar(255), "host_id" integer, "ip_address" varchar(255), "boot_time" datetime, "memory_overhead" integer, "description" text, "annotation" text, "aggr_commited_storage_space" integer, "aggr_uncommited_storage_space" integer, "aggr_unshared_storage_space" integer, "storage_space_updated_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312071914')[0m
+  [1m[35m (14.0ms)[0m  commit transaction
+Migrating to CreateFlows (20130319041245)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "flows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "source_ip" varchar(255), "source_dns" varchar(255), "source_port" integer, "destination_ip" varchar(255), "destination_dns" varchar(255), "destination_port" integer, "byte" varchar(255), "flows" integer, "packets" integer, "duration" float, "protocol" varchar(255), "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130319041245')[0m
+  [1m[35m (5.7ms)[0m  commit transaction
+Migrating to CreateSwitches (20130529182225)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130529182225')[0m
+  [1m[35m (3.3ms)[0m  commit transaction
+Migrating to CreateSwitchModules (20130529182320)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateHosts (20130312053833)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "hosts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "dns_name" varchar(255), "ip_address" varchar(255), "product_name" varchar(255), "product_fullname" varchar(255), "product_vendor" varchar(255), "product_version" varchar(255), "product_build" integer, "product_os_type" varchar(255), "product_line_id" varchar(255), "product_api_version" float, "host_vendor" varchar(255), "host_model" varchar(255), "cpu_model" varchar(255), "cpu_count" integer, "cpu_core_count" integer, "cpu_thread_count" integer, "cpu_hz" integer, "mem_size" float, "cpu_power_mgmt_policy" varchar(255), "cpu_power_mgmt_support" varchar(255), "nic_count" integer, "hba_count" integer, "last_perf_time" datetime, "perf_refresh_rate" integer, "boot_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312053833')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+Migrating to CreateVms (20130312071914)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "vms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vsid" integer, "datacenter_id" integer, "power_state" boolean, "resource_group_id" integer, "guest_os" varchar(255), "guest_family" varchar(255), "guest_state" varchar(255), "mem_size_mb" integer, "num_vcpu" integer, "num_nic" integer, "num_disk" integer, "dns_name" varchar(255), "host_id" integer, "ip_address" varchar(255), "boot_time" datetime, "memory_overhead" integer, "description" text, "annotation" text, "aggr_commited_storage_space" integer, "aggr_uncommited_storage_space" integer, "aggr_unshared_storage_space" integer, "storage_space_updated_time" datetime, "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312071914')[0m
+  [1m[35m (1.6ms)[0m  commit transaction
+Migrating to CreateFlows (20130319041245)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "flows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "source_ip" varchar(255), "source_dns" varchar(255), "source_port" integer, "destination_ip" varchar(255), "destination_dns" varchar(255), "destination_port" integer, "byte" varchar(255), "flows" integer, "packets" integer, "duration" float, "protocol" varchar(255), "rank" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130319041245')[0m
+  [1m[35m (1.6ms)[0m  commit transaction
+Migrating to CreateSwitches (20130529182225)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "switches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "cisco_pro_name" varchar(255), "cisco_pro_com" varchar(255), "sys_desc" varchar(255), "sys_name" varchar(255), "sys_uptime" varchar(255), "gathered" datetime, "location" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130529182225')[0m
+  [1m[35m (1.6ms)[0m  commit transaction
+Migrating to CreatePorts (20130529182326)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "ports" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "port" varchar(255), "vlan" varchar(255), "state" varchar(255), "days_inactive" integer, "speed" varchar(255), "duplex" varchar(255), "port_label" varchar(255), "what_via_cpd" varchar(255), "mac_address" varchar(255), "nic_manufacturer" varchar(255), "ip_address" varchar(255), "dns_name" varchar(255), "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130529182326')[0m
+  [1m[35m (1.7ms)[0m  commit transaction
+Migrating to CreateSwitchModules (20130529183223)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "switch_modules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "description" varchar(255), "serial_num" varchar(255), "hw" float, "sw" varchar(255), "fw" varchar(255), "switch_id" integer, "gathered" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130529183223')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "hosts"
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM "vms"[0m
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "flows"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (51.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher1.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 9]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher2.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 10]]
+  [1m[35m (14.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher3.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 11]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher4.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 12]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher5.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 13]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 1], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher6.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 14]]
+  [1m[35m (6.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher1.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 9]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher2.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 10]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher3.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 11]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher4.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 12]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher5.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 13]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 1], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher6.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 14]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher1.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 9]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher2.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 10]]
+  [1m[35m (6.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher3.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 11]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher4.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 12]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher5.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 13]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 1], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher6.umkc.edu"], ["gathered", Sun, 03 Feb 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 14]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher1.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 9]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher2.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 10]]
+  [1m[35m (8.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher3.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 11]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 2], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher4.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 12]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 4], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher5.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 13]]
+  [1m[36m (5.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 1], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 3], ["dns_name", "watcher6.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 14]]
+  [1m[35m (7.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx02.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 1]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx03.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 2]]
+  [1m[35m (14.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx04.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 3]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 32], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx06.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 4]]
+  [1m[35m (6.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx05.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 5]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx07.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 6]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx08.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 7]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx09.esx.umkc.edu"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 8]]
+  [1m[35m (6.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx02.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 1]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx03.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 2]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx04.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 3]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 32], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx06.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 4]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx05.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 5]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx07.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 6]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx08.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 7]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx09.esx.umkc.edu"], ["gathered", Sun, 03 Mar 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 8]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx02.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 1]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx03.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 2]]
+  [1m[35m (6.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx04.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 3]]
+  [1m[36m (6.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 32], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx06.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 4]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx05.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 5]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx07.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 6]]
+  [1m[35m (6.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx08.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 7]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx09.esx.umkc.edu"], ["gathered", Thu, 03 Jan 2013 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 8]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx02.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 1]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx03.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 2]]
+  [1m[35m (7.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx04.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262098.48046875], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 3]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 32], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx06.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 4]]
+  [1m[35m (7.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 16], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx05.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 262130.765625], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 5]]
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx07.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 6]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx08.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 7]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "hosts" ("boot_time", "cpu_core_count", "cpu_count", "cpu_hz", "cpu_model", "cpu_power_mgmt_policy", "cpu_power_mgmt_support", "cpu_thread_count", "created_at", "datacenter_id", "dns_name", "gathered", "hba_count", "host_model", "host_vendor", "ip_address", "last_perf_time", "mem_size", "nic_count", "perf_refresh_rate", "product_api_version", "product_build", "product_fullname", "product_line_id", "product_name", "product_os_type", "product_vendor", "product_version", "rank", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["boot_time", nil], ["cpu_core_count", nil], ["cpu_count", 8], ["cpu_hz", nil], ["cpu_model", nil], ["cpu_power_mgmt_policy", nil], ["cpu_power_mgmt_support", nil], ["cpu_thread_count", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", 5], ["dns_name", "kc-isfs-acesx09.esx.umkc.edu"], ["gathered", Mon, 03 Dec 2012 12:12:12 UTC +00:00], ["hba_count", nil], ["host_model", nil], ["host_vendor", nil], ["ip_address", nil], ["last_perf_time", nil], ["mem_size", 98294.14453125], ["nic_count", nil], ["perf_refresh_rate", nil], ["product_api_version", nil], ["product_build", nil], ["product_fullname", nil], ["product_line_id", nil], ["product_name", nil], ["product_os_type", nil], ["product_vendor", nil], ["product_version", nil], ["rank", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", 8]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm1.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 1], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm2.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 2], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (3.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm3.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 3], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm4.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 4], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm5.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 5], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm6.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 6], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (15.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm7.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 7], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm8.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 8], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm9.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 1], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 2], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm10.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 2], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm11.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 3], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm12.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 4], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm13.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 5], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm14.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 6], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 5], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm15.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 7], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm16.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 8], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm17.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 1], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:32:59 UTC +00:00], ["vsid", nil]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm18.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 2], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm19.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 3], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 2], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm20.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 4], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (10.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm21.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 5], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm22.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 6], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 3], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm23.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 7], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm24.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 8], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm25.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 1], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm26.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 2], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 4], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm27.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 3], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm28.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 4], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm29.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 5], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm30.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 6], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 7], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (6.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm31.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 7], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "vms" ("aggr_commited_storage_space", "aggr_uncommited_storage_space", "aggr_unshared_storage_space", "annotation", "boot_time", "created_at", "datacenter_id", "description", "dns_name", "gathered", "guest_family", "guest_os", "guest_state", "host_id", "ip_address", "mem_size_mb", "memory_overhead", "num_disk", "num_nic", "num_vcpu", "power_state", "rank", "resource_group_id", "storage_space_updated_time", "updated_at", "vsid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aggr_commited_storage_space", nil], ["aggr_uncommited_storage_space", nil], ["aggr_unshared_storage_space", nil], ["annotation", nil], ["boot_time", nil], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["datacenter_id", nil], ["description", nil], ["dns_name", "vm32.com"], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["guest_family", nil], ["guest_os", nil], ["guest_state", nil], ["host_id", 8], ["ip_address", nil], ["mem_size_mb", 2048], ["memory_overhead", nil], ["num_disk", nil], ["num_nic", nil], ["num_vcpu", 1], ["power_state", nil], ["rank", nil], ["resource_group_id", nil], ["storage_space_updated_time", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["vsid", nil]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["byte", 100], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "1.1.1.1"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "10.10.10.10"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["byte", 40], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "1.1.1.1"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "11.11.11.11"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["byte", 10], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "1.1.1.1"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "111.111.111.111"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["byte", 200], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "2.2.2.2"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "20.20.20.20"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["byte", 30], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "2.2.2.2"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "22.22.22.22"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["byte", 300], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "2.2.2.2"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "222.222.222.222"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["byte", 300], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "2.2.2.2"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "9.9.9.9"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "flows" ("byte", "created_at", "destination_dns", "destination_ip", "destination_port", "duration", "flows", "gathered", "packets", "protocol", "rank", "source_dns", "source_ip", "source_port", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["byte", 300], ["created_at", Wed, 29 May 2013 18:33:00 UTC +00:00], ["destination_dns", nil], ["destination_ip", "1.1.1.1"], ["destination_port", nil], ["duration", nil], ["flows", nil], ["gathered", Wed, 03 Apr 2013 12:12:12 UTC +00:00], ["packets", nil], ["protocol", nil], ["rank", nil], ["source_dns", nil], ["source_ip", "9.9.9.9"], ["source_port", nil], ["updated_at", Wed, 29 May 2013 18:33:00 UTC +00:00]]
+  [1m[35m (6.2ms)[0m  commit transaction
+
+
+Started GET "/switch_modules" for 127.0.0.1 at 2013-05-29 13:33:25 -0500
+Connecting to database specified by database.yml
+Processing by SwitchModulesController#index as HTML
+  [1m[36mSwitchModule Load (0.1ms)[0m  [1mSELECT "switch_modules".* FROM "switch_modules" [0m
+  Rendered switch_modules/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 168ms (Views: 163.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/application.css - 200 OK (12ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /application-regular.css - 200 OK (20ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/bargraph.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/d_control.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (3ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /application-regular.js - 200 OK (32ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /jquery_ujs.js - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (43ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /bootstrap.js - 200 OK (16ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/application.js - 200 OK (18ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/d_control.js - 200 OK (1ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /regular/home.js - 200 OK (1ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Served asset /d3.v3.min.js - 200 OK (2ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:33:26 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (0.7ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 160ms (Views: 85.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/switches" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Processing by SwitchesController#index as HTML
+  [1m[36mSwitch Load (0.1ms)[0m  [1mSELECT "switches".* FROM "switches" [0m
+  Rendered switches/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/application.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/bargraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /application-regular.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/d_control.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /application-regular.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /d3.v3.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/d_control.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/application.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Served asset /regular/home.js - 200 OK (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:33:34 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (0.8ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 86ms (Views: 79.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/ports" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Processing by PortsController#index as HTML
+  [1m[36mPort Load (0.2ms)[0m  [1mSELECT "ports".* FROM "ports" [0m
+  Rendered ports/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 28.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /application-regular.css - 200 OK (3ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/bargraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /application-regular.js - 200 OK (1ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/d_control.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/application.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/d_control.js - 200 OK (0ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /regular/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-05-29 13:33:41 -0500
+Served asset /d3.v3.min.js - 200 OK (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-05-29 13:33:42 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (0.8ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 87ms (Views: 79.8ms | ActiveRecord: 0.8ms)

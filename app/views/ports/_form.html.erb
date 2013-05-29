@@ -1,0 +1,73 @@
+<%= form_for(@port) do |f| %>
+  <% if @port.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@port.errors.count, "error") %> prohibited this port from being saved:</h2>
+
+      <ul>
+      <% @port.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :port %><br />
+    <%= f.text_field :port %>
+  </div>
+  <div class="field">
+    <%= f.label :vlan %><br />
+    <%= f.text_field :vlan %>
+  </div>
+  <div class="field">
+    <%= f.label :state %><br />
+    <%= f.text_field :state %>
+  </div>
+  <div class="field">
+    <%= f.label :days_inactive %><br />
+    <%= f.number_field :days_inactive %>
+  </div>
+  <div class="field">
+    <%= f.label :speed %><br />
+    <%= f.text_field :speed %>
+  </div>
+  <div class="field">
+    <%= f.label :duplex %><br />
+    <%= f.text_field :duplex %>
+  </div>
+  <div class="field">
+    <%= f.label :port_label %><br />
+    <%= f.text_field :port_label %>
+  </div>
+  <div class="field">
+    <%= f.label :what_via_cpd %><br />
+    <%= f.text_field :what_via_cpd %>
+  </div>
+  <div class="field">
+    <%= f.label :mac_address %><br />
+    <%= f.text_field :mac_address %>
+  </div>
+  <div class="field">
+    <%= f.label :nic_manufacturer %><br />
+    <%= f.text_field :nic_manufacturer %>
+  </div>
+  <div class="field">
+    <%= f.label :ip_address %><br />
+    <%= f.text_field :ip_address %>
+  </div>
+  <div class="field">
+    <%= f.label :dns_name %><br />
+    <%= f.text_field :dns_name %>
+  </div>
+  <div class="field">
+    <%= f.label :gathered %><br />
+    <%= f.datetime_select :gathered %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

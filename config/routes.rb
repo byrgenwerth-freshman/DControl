@@ -1,8 +1,14 @@
 CS551Project::Application.routes.draw do
-  resources :flows
+  resources :switch_modules
+
+
+  resources :ports
 
 
   resources :switches
+
+
+  resources :flows
 
 
   #This links the VM page
