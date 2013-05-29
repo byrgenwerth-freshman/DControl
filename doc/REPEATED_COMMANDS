@@ -18,7 +18,19 @@ rails generate scaffold Flow id:integer source_ip:string source_dns:string sourc
 rails destroy scaffold Flow
 
 //Generate Switch
-rails generate scaffold Switch id:integer dns_name:string ip_name:string name:string
+rails generate scaffold Switch id:integer model:string cisco_pro_name:string cisco_pro_com:string sys_desc:string sys_name:string sys_uptime:string gathered:datetime location:string
 
-//Destroy Flow
-rails destroy scaffold Flow
+//Destroy Switch
+rails destroy scaffold Switch
+
+//Generate Module
+rails generate scaffold Module id:integer model:string description:string serial_num:string hw:float sw:string fw:string switch_id:int gathered:datetime
+
+//Destroy Module
+rails destroy scaffold Module
+
+//Generate Port
+rails generate scaffold Port id:integer port:string vlan:string state:string days_inactive:integer speed:string duplex:string port_label:string what_via_cpd:string mac_address:string nic_manufacturer:string ip_address:string dns_name:string gathered:datetime
+
+//Destroy Port
+rails destroy scaffold Port
