@@ -1,1 +1,19 @@
+<!--
+index.html.erb for linechart
+By Kelsey Leftwich
+Based on original code by Matt Owens
+-->
+
 <h1>Line Chart</h1>
+
+<label><input type="checkbox"> Sort values</label>
+
+<!--This gives the JavaScript a place to attach the files-->
+<div id="chart"></div>
+<select id = "Groupings">
+</select>
+
+<select id="Dates">
+</select>
+
+<%= javascript_include_tag "bar_to_line" %>
