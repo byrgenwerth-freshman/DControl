@@ -5737,3 +5737,773 @@ Started GET "/d_control/linechart" for 134.193.54.10 at 2013-05-31 14:36:52 -050
 Processing by LinechartController#index as JSON
   [1m[35mHost Load (0.2ms)[0m  SELECT cpu_count, dns_name, gathered, datacenter_id FROM "hosts" WHERE "hosts"."id" IN (1, 2)
 Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 04:45:02 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Compiled regular/bootstrap_and_overrides.css  (6511ms)  (pid 28597)
+Compiled application-regular.css  (146ms)  (pid 28597)
+Compiled jquery.js  (2ms)  (pid 28597)
+Compiled jquery_ujs.js  (0ms)  (pid 28597)
+Compiled bootstrap-transition.js  (0ms)  (pid 28597)
+Compiled bootstrap-affix.js  (0ms)  (pid 28597)
+Compiled bootstrap-alert.js  (0ms)  (pid 28597)
+Compiled bootstrap-button.js  (0ms)  (pid 28597)
+Compiled bootstrap-carousel.js  (0ms)  (pid 28597)
+Compiled bootstrap-collapse.js  (2ms)  (pid 28597)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 28597)
+Compiled bootstrap-modal.js  (0ms)  (pid 28597)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 28597)
+Compiled bootstrap-tab.js  (0ms)  (pid 28597)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 28597)
+Compiled bootstrap-popover.js  (0ms)  (pid 28597)
+Compiled bootstrap-typeahead.js  (2ms)  (pid 28597)
+Compiled bootstrap.js  (584ms)  (pid 28597)
+Compiled regular/application.js  (779ms)  (pid 28597)
+Compiled application-regular.js  (789ms)  (pid 28597)
+  Rendered layouts/_navigation.html.erb (2.7ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 7960ms (Views: 7959.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/regular/application.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Served asset /regular/application.css - 200 OK (13ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Served asset /regular/bootstrap_and_overrides.css - 200 OK (11ms)
+
+
+Started GET "/assets/regular/home.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Served asset /regular/home.css - 200 OK (2ms)
+
+
+Started GET "/assets/regular/d_control.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:11 -0500
+Served asset /regular/d_control.css - 200 OK (17ms)
+
+
+Started GET "/assets/regular/bargraph.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /regular/bargraph.css - 200 OK (2ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /application-regular.css - 200 OK (40ms)
+
+
+Started GET "/assets/regular/networkflowgraph.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /regular/networkflowgraph.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-transition.js - 200 OK (4ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /application-regular.js - 200 OK (96ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-button.js - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-collapse.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-tooltip.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /regular/application.js - 200 OK (22ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /d3.v3.min.js - 200 OK (3ms)
+
+
+Started GET "/assets/regular/d_control.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /regular/d_control.js - 200 OK (2ms)
+
+
+Started GET "/assets/regular/home.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /regular/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Served asset /bootstrap.js - 200 OK (39ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:12 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (1.3ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 320ms (Views: 187.2ms | ActiveRecord: 67.5ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:16 -0500
+Processing by DControlController#index as HTML
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (1.9ms)[0m  SELECT "hosts".* FROM "hosts" 
+  Rendered d_control/index.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 87ms (Views: 79.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:17 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (1.4ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 112ms (Views: 104.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/d_control/bargraph?info=hosts&view=s&start_date%5Byear%5D=2013&start_date%5Bmonth%5D=6&start_date%5Bday%5D=8&start_date%5Bhour%5D=04&start_date%5Bminute%5D=45&end_date%5Byear%5D=2013&end_date%5Bmonth%5D=6&end_date%5Bday%5D=8&end_date%5Bhour%5D=04&end_date%5Bminute%5D=45&compare=id&chart=%2Fd_control%2Fbargraph&items%5B%5D=47" for 127.0.0.1 at 2013-06-08 04:45:22 -0500
+Processing by BargraphController#index as HTML
+  Parameters: {"info"=>"hosts", "view"=>"s", "start_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"45"}, "end_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"45"}, "compare"=>"id", "chart"=>"/d_control/bargraph", "items"=>["47"]}
+  [1m[35mHost Load (0.3ms)[0m  SELECT id, dns_name, gathered, datacenter_id FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "47"]]
+  Rendered bargraph/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 45.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bargraph.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:22 -0500
+Served asset /bargraph.js - 200 OK (1ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:22 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (16.3ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 117ms (Views: 93.1ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/d_control/bargraph" for 127.0.0.1 at 2013-06-08 04:45:23 -0500
+Processing by BargraphController#index as JSON
+  [1m[35mHost Load (0.2ms)[0m  SELECT id, dns_name, gathered, datacenter_id FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "47"]]
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2013-06-08 04:45:31 -0500
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:32 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (3.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 81ms (Views: 72.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /application-regular.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /regular/bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /application-regular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /regular/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:44 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (1.5ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 75ms (Views: 61.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Processing by DControlController#index as HTML
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (1.3ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+  Rendered d_control/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 32.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /application-regular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /regular/bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /application-regular.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:50 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /regular/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:45:51 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (1.4ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 137ms (Views: 131.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/d_control" for 127.0.0.1 at 2013-06-08 04:45:55 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"type"=>"netflows", "view"=>"s", "start_date"=>"1900-1-1", "end_date"=>"5000-12-31", "vie"=>:get}
+  [1m[36mFlow Load (0.5ms)[0m  [1mSELECT "flows".* FROM "flows" WHERE (gathered >= '1900-1-1' AND gathered <= '5000-12-31')[0m
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/d_control/flowgraph?info=netflows&view=s&start_date%5Byear%5D=2013&start_date%5Bmonth%5D=6&start_date%5Bday%5D=8&start_date%5Bhour%5D=04&start_date%5Bminute%5D=45&end_date%5Byear%5D=2013&end_date%5Bmonth%5D=6&end_date%5Bday%5D=8&end_date%5Bhour%5D=04&end_date%5Bminute%5D=45&compare=source_ip&chart=%2Fd_control%2Fflowgraph" for 127.0.0.1 at 2013-06-08 04:46:19 -0500
+Processing by NetworkflowgraphController#index as HTML
+  Parameters: {"info"=>"netflows", "view"=>"s", "start_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"45"}, "end_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"45"}, "compare"=>"source_ip", "chart"=>"/d_control/flowgraph"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flow without an ID):
+  app/controllers/networkflowgraph_controller.rb:18:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Processing by DControlController#index as HTML
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (1.3ms)[0m  SELECT "hosts".* FROM "hosts" 
+  Rendered d_control/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /application-regular.css - 304 Not Modified (61ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /application-regular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /regular/bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Served asset /regular/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:46:24 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (4.3ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Completed 200 OK in 75ms (Views: 61.7ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/d_control" for 127.0.0.1 at 2013-06-08 04:46:28 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"type"=>"netflows", "view"=>"s", "start_date"=>"1900-1-1", "end_date"=>"5000-12-31", "vie"=>:get}
+  [1m[35mFlow Load (0.4ms)[0m  SELECT "flows".* FROM "flows" WHERE (gathered >= '1900-1-1' AND gathered <= '5000-12-31')
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/d_control/bargraph?info=netflows&view=s&start_date%5Byear%5D=2013&start_date%5Bmonth%5D=6&start_date%5Bday%5D=8&start_date%5Bhour%5D=04&start_date%5Bminute%5D=46&end_date%5Byear%5D=2013&end_date%5Bmonth%5D=6&end_date%5Bday%5D=8&end_date%5Bhour%5D=04&end_date%5Bminute%5D=46&compare=id&chart=%2Fd_control%2Fbargraph&items%5B%5D=1&items%5B%5D=3" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Processing by BargraphController#index as HTML
+  Parameters: {"info"=>"netflows", "view"=>"s", "start_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"46"}, "end_date"=>{"year"=>"2013", "month"=>"6", "day"=>"8", "hour"=>"04", "minute"=>"46"}, "compare"=>"id", "chart"=>"/d_control/bargraph", "items"=>["1", "3"]}
+  [1m[36mFlow Load (0.3ms)[0m  [1mSELECT id, gathered, destination_ip, source_ip FROM "flows" WHERE "flows"."id" IN (1, 3)[0m
+  Rendered bargraph/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /application-regular.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /regular/bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /application-regular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:33 -0500
+Served asset /regular/application.js - 304 Not Modified (55ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:46:34 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (1.3ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 56ms (Views: 50.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/d_control/bargraph" for 127.0.0.1 at 2013-06-08 04:46:34 -0500
+Processing by BargraphController#index as JSON
+  [1m[36mFlow Load (0.2ms)[0m  [1mSELECT id, gathered, destination_ip, source_ip FROM "flows" WHERE "flows"."id" IN (1, 3)[0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Processing by LinksController#index as HTML
+  Rendered links/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-regular.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /application-regular.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /application-regular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /regular/bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/regular/application.js?body=1" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Served asset /regular/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-08 04:46:41 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (2.7ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 88ms (Views: 74.9ms | ActiveRecord: 2.7ms)
