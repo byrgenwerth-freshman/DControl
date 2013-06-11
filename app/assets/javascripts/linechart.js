@@ -137,7 +137,10 @@ function makeGraph(object, compItem)
 	var x = d3.time.scale()
 	    .range([0, width]);
 
+	console.log("Max: " + d3.max(object, function(d) { return d.data; }));
+
 	var y = d3.scale.linear()
+	    .domain([0, d3.max(object, function(d) { return d.data; })])
 	    .range([height, 0]);
 
 	var xAxis = d3.svg.axis()
