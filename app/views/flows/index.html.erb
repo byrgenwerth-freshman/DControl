@@ -25,18 +25,16 @@
   <tr>
     <td><%= flow.id %></td>
     <td><%= flow.source_ip %></td>
-    <td><%= flow.source_dns %></td>
+    <td><%= flow.source_as %></td>
     <td><%= flow.source_port %></td>
     <td><%= flow.destination_ip %></td>
-    <td><%= flow.destination_dns %></td>
+    <td><%= flow.destination_as %></td>
     <td><%= flow.destination_port %></td>
-    <td><%= flow.byte %></td>
+    <td><%= flow.bytes %></td>
     <td><%= flow.flows %></td>
     <td><%= flow.packets %></td>
     <td><%= flow.duration %></td>
     <td><%= flow.protocol %></td>
-    <td><%= flow.rank %></td>
-    <td><%= flow.gathered %></td>
     <td><%= link_to 'Show', flow %></td>
     <td><%= link_to 'Edit', edit_flow_path(flow) %></td>
     <td><%= link_to 'Destroy', flow, method: :delete, data: { confirm: 'Are you sure?' } %></td>

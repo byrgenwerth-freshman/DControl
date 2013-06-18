@@ -27,8 +27,10 @@ class DControlController < ApplicationController
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
     elsif info.to_s == 'netflows' and view.to_s == 's'
-      @selected = Flow.where("gathered >= :start_date AND gathered <= :end_date",
-                             :start_date => start_date, :end_date => end_date)
+      #@selected = Flow.where("gathered >= :start_date AND gathered <= :end_date",
+                             #:start_date => start_date, :end_date => end_date)
+      # changed by Jack
+      @selected = Flow.limit(100)
       @names = Flow.column_names
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
@@ -49,7 +51,9 @@ class DControlController < ApplicationController
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
     elsif info.to_s == 'netflows' and view.to_s == 'g'
-      @selected = Flow.select("DISTINCT source_ip").where("gathered >= :start_date AND gathered <= :end_date", :start_date => start_date, :end_date => end_date)
+      #@selected = Flow.select("DISTINCT source_ip").where("gathered >= :start_date AND gathered <= :end_date", :start_date => start_date, :end_date => end_date)
+            # changed by Jack
+      @selected = Flow.limit(100)
       @names = Flow.column_names
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
@@ -69,7 +73,8 @@ class DControlController < ApplicationController
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
     elsif info.to_s == 'netflows' and view.to_s == 'hs'
-      @selected = Flow.all
+      #@selected = Flow.all
+      @selected = Flow.limit(100)
       @names = Flow.column_names
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
@@ -89,7 +94,8 @@ class DControlController < ApplicationController
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
     elsif info.to_s == 'netflows' and view.to_s == 'hg'
-      @selected = Flow.select("DISTINCT source_ip")
+      #@selected = Flow.select("DISTINCT source_ip")
+      @selected = Flow.limit(100)
       @names = Flow.column_names
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}

@@ -49,8 +49,8 @@ development:
   pool: 5
   username: umkcdcrg01
   password: .UMKCdcrg01.
-  host: 134.193.136.118
-  port: 5432
+  #host: 134.193.136.118
+  #port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -77,8 +77,8 @@ test:
   pool: 5
   username: umkcdcrg01
   password: .UMKCdcrg01.
-  host: 134.193.136.118
-  port: 5432
+  #host: 134.193.136.118
+  #port: 5432
 
 production:
   adapter: postgresql
@@ -87,5 +87,5 @@ production:
   pool: 5
   username: umkcdcrg01
   password: .UMKCdcrg01.
-  host: 134.193.136.118
-  port: 5432
+  #host: 134.193.136.118
+  #port: 5432
