@@ -5737,3 +5737,71 @@ Started GET "/d_control/linechart" for 134.193.54.10 at 2013-05-31 14:36:52 -050
 Processing by LinechartController#index as JSON
   [1m[35mHost Load (0.2ms)[0m  SELECT cpu_count, dns_name, gathered, datacenter_id FROM "hosts" WHERE "hosts"."id" IN (1, 2)
 Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-18 10:33:49 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Compiled regular/bootstrap_and_overrides.css  (9282ms)  (pid 97433)
+Compiled application-regular.css  (6ms)  (pid 97433)
+Compiled jquery.js  (2ms)  (pid 97433)
+Compiled jquery_ujs.js  (0ms)  (pid 97433)
+Compiled bootstrap-transition.js  (0ms)  (pid 97433)
+Compiled bootstrap-affix.js  (0ms)  (pid 97433)
+Compiled bootstrap-alert.js  (0ms)  (pid 97433)
+Compiled bootstrap-button.js  (0ms)  (pid 97433)
+Compiled bootstrap-carousel.js  (14ms)  (pid 97433)
+Compiled bootstrap-collapse.js  (0ms)  (pid 97433)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 97433)
+Compiled bootstrap-modal.js  (0ms)  (pid 97433)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 97433)
+Compiled bootstrap-tab.js  (0ms)  (pid 97433)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 97433)
+Compiled bootstrap-popover.js  (0ms)  (pid 97433)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 97433)
+Compiled bootstrap.js  (685ms)  (pid 97433)
+Compiled regular/application.js  (862ms)  (pid 97433)
+Compiled application-regular.js  (928ms)  (pid 97433)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (1.9ms)
+Completed 200 OK in 10824ms (Views: 10823.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-18 10:34:00 -0500
+Processing by DControlController#index as HTML
+  Parameters: {"vie"=>:get}
+  [1m[36mHost Load (50.9ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+  Rendered d_control/index.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 511ms (Views: 158.7ms | ActiveRecord: 91.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 10:34:01 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/application-regular.js?body=1" for 127.0.0.1 at 2013-06-18 10:34:01 -0500
+Served asset /application-regular.js - 304 Not Modified (127ms)
+
+
+Started GET "/d_control" for 127.0.0.1 at 2013-06-18 10:34:01 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"vie"=>:get}
+  [1m[35mHost Load (2.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Completed 200 OK in 229ms (Views: 222.0ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/d_control" for 127.0.0.1 at 2013-06-18 10:34:05 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"type"=>"netflows", "view"=>"s", "start_date"=>"1900-1-1", "end_date"=>"5000-12-31", "vie"=>:get}
+  [1m[36mFlow Load (29.2ms)[0m  [1mSELECT "flows".* FROM "flows" WHERE (gathered >= '1900-1-1' AND gathered <= '5000-12-31')[0m
+Completed 200 OK in 67ms (Views: 27.8ms | ActiveRecord: 29.8ms)
+
+
+Started POST "/d_control" for 127.0.0.1 at 2013-06-18 10:34:12 -0500
+Processing by DControlController#index as JSON
+  Parameters: {"type"=>"hosts", "view"=>"s", "start_date"=>"1900-1-1", "end_date"=>"5000-12-31", "vie"=>:get}
+  [1m[35mHost Load (3.5ms)[0m  SELECT "hosts".* FROM "hosts" WHERE (gathered >= '1900-1-1' AND gathered <= '5000-12-31')
+Completed 200 OK in 77ms (Views: 72.9ms | ActiveRecord: 3.5ms)
