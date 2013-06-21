@@ -4,18 +4,14 @@
   <tr>
     <th>Id</th>
     <th>Source ip</th>
-    <th>Source dns</th>
     <th>Source port</th>
     <th>Destination ip</th>
-    <th>Destination dns</th>
     <th>Destination port</th>
-    <th>Byte</th>
+    <th>Bytes</th>
     <th>Flows</th>
     <th>Packets</th>
     <th>Duration</th>
     <th>Protocol</th>
-    <th>Rank</th>
-    <th>Gathered</th>
     <th></th>
     <th></th>
     <th></th>
@@ -25,10 +21,8 @@
   <tr>
     <td><%= flow.id %></td>
     <td><%= flow.source_ip %></td>
-    <td><%= flow.source_as %></td>
     <td><%= flow.source_port %></td>
     <td><%= flow.destination_ip %></td>
-    <td><%= flow.destination_as %></td>
     <td><%= flow.destination_port %></td>
     <td><%= flow.bytes %></td>
     <td><%= flow.flows %></td>
