@@ -11,24 +11,88 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130529183223) do
+ActiveRecord::Schema.define(:version => 20130612103133) do
+
+  create_table "dcdist2013010112001205", :id => false, :force => true do |t|
+    t.integer "id"
+    t.date    "start_date"
+    t.time    "start_time"
+    t.date    "end_date"
+    t.time    "end_time"
+    t.float   "duration"
+    t.string  "protocol",           :limit => 10
+    t.string  "flag",               :limit => 10
+    t.string  "source_ip",          :limit => nil
+    t.integer "source_port"
+    t.integer "in_inf"
+    t.integer "source_as"
+    t.integer "tos"
+    t.string  "destination_ip",     :limit => nil
+    t.float   "destination_port"
+    t.float   "bytes"
+    t.float   "packets"
+    t.integer "flows"
+    t.float   "bits_per_second"
+    t.float   "packets_per_second"
+    t.float   "bytes_per_packet"
+    t.integer "destination_as"
+    t.integer "out_inf"
+  end
+
+  create_table "dcdist201301011200rrtresult", :id => false, :force => true do |t|
+    t.integer "id"
+    t.float   "rrt"
+    t.date    "start_date"
+    t.time    "start_time"
+    t.float   "duration"
+    t.string  "protocol",           :limit => 10
+    t.string  "source_ip",          :limit => nil
+    t.integer "source_port"
+    t.string  "destination_ip",     :limit => nil
+    t.float   "destination_port"
+    t.float   "bytes"
+    t.float   "packets"
+    t.integer "flows"
+    t.float   "bits_per_second"
+    t.float   "packets_per_second"
+    t.float   "bytes_per_packet"
+  end
 
   create_table "flows", :force => true do |t|
-    t.string   "source_ip"
-    t.string   "source_dns"
-    t.integer  "source_port"
-    t.string   "destination_ip"
-    t.string   "destination_dns"
-    t.integer  "destination_port"
-    t.string   "byte"
-    t.integer  "flows"
-    t.integer  "packets"
-    t.float    "duration"
-    t.string   "protocol"
-    t.integer  "rank"
-    t.datetime "gathered"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.string  "source_ip"
+    t.integer "source_port"
+    t.string  "destination_ip"
+    t.integer "destination_port"
+    t.integer "flows"
+    t.float   "duration"
+    t.string  "protocol"
+    t.date    "start_date"
+    t.time    "start_time"
+    t.date    "end_date"
+    t.time    "end_time"
+    t.string  "flag"
+    t.integer "in_inf"
+    t.integer "source_as"
+    t.integer "tos"
+    t.float   "bytes"
+    t.float   "packets"
+    t.float   "bits_per_second"
+    t.float   "packets_per_second"
+    t.integer "destination_as"
+    t.integer "out_int"
+    t.float   "bytes_per_packet"
+  end
+
+  create_table "host_enum", :id => false, :force => true do |t|
+    t.text "domain_name"
+  end
+
+  create_table "host_knowledge", :id => false, :force => true do |t|
+    t.text "domain_name"
+    t.text "ipv4_address"
+    t.text "ipv4_hadoop_host"
+    t.text "ipv6_address"
+    t.text "ipv6_hadoop_host"
   end
 
   create_table "hosts", :force => true do |t|

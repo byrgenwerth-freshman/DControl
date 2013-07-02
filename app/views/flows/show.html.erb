@@ -11,11 +11,6 @@
 </p>
 
 <p>
-  <b>Source dns:</b>
-  <%= @flow.source_dns %>
-</p>
-
-<p>
   <b>Source port:</b>
   <%= @flow.source_port %>
 </p>
@@ -25,10 +20,6 @@
   <%= @flow.destination_ip %>
 </p>
 
-<p>
-  <b>Destination dns:</b>
-  <%= @flow.destination_dns %>
-</p>
 
 <p>
   <b>Destination port:</b>
@@ -36,8 +27,8 @@
 </p>
 
 <p>
-  <b>Byte:</b>
-  <%= @flow.byte %>
+  <b>Bytes:</b>
+  <%= @flow.bytes %>
 </p>
 
 <p>
@@ -60,15 +51,6 @@
   <%= @flow.protocol %>
 </p>
 
-<p>
-  <b>Rank:</b>
-  <%= @flow.rank %>
-</p>
-
-<p>
-  <b>Gathered:</b>
-  <%= @flow.gathered %>
-</p>
 
 
 <%= link_to 'Edit', edit_flow_path(@flow) %> |

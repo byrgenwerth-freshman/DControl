@@ -58,15 +58,15 @@ class BargraphController < ApplicationController
         end
       elsif session[:info].to_s == 'netflows'
         if session[:view].to_s == 's'
-          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
+          @data = Flow.find(session[:items], :select => session[:compare] + ", source_ip,source_port, destination_ip, source_port, protocol")
 
         elsif session[:view].to_s == 'g'
-          @data = Flow.where("source_id IN (?)", session[:items]).select(session[:compare] + ", gathered, destination_ip, source_ip")
+          @data = Flow.where("source_id IN (?)", session[:items]).select(session[:compare] + ", source_ip,source_port, destination_ip, source_port, protocol")
         elsif session[:view].to_s == 'hs'
-          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
+          @data = Flow.find(session[:items], :select => session[:compare] + ", source_ip,source_port, destination_ip, source_port, protocol")
 
         elsif session[:view].to_s == 'hg'
-          @data = Flow.find(session[:items], :select => session[:compare] + ", gathered, destination_ip, source_ip")
+          @data = Flow.find(session[:items], :select => session[:compare] + ", source_ip,source_port, destination_ip, source_port, protocol")
         end
       end
     end
