@@ -5,6 +5,10 @@
 
 ###############################################################################
 class Vm < ActiveRecord::Base
+  #Relationship
   belongs_to :hosts
+
+  #Validations
+  validates :ip_address, :num_vcpu, presence: true
 
 end

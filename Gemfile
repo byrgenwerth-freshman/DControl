@@ -36,6 +36,9 @@ gem 'will_paginate', '~> 3.0.0'
 
 gem "factory_girl", "~> 4.2.0"
 
+gem 'minitest'
+
+gem "turn", "~> 0.9.6"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

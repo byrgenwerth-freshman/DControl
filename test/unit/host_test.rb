@@ -1,3 +1,4 @@
+###############################################################################
 require 'test_helper'
 
 class HostTest < ActiveSupport::TestCase
@@ -5,8 +6,22 @@ class HostTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  test "default" do
-    p hosts(:host_one)
+  test "reqired validations" do
+    new_host = hosts(:watcher1)
+
+    #For IP address
+    new_host.ip_address = nil
+    refute new_host.valid?
+    new_host.ip_address = "3.3.3.3"
+    assert new_host.valid?
+
+    #For CPU count
+    new_host.cpu_count = nil
+    refute new_host.valid?
+    new_host.cpu_count = 2
+    assert new_host.valid?
+
+
 
   end
 

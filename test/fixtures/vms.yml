@@ -1,55 +1,27 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  id: 1
+vm_one:
   vsid: 1
   datacenter_id: 1
-  power_state: false
   resource_group_id: 1
-  guest_os: MyString
-  guest_family: MyString
-  guest_state: MyString
-  mem_size_mb: 1
+  mem_size_mb: 100
   num_vcpu: 1
   num_nic: 1
   num_disk: 1
-  dns_name: MyString
-  #host: host_one
-  ip_address: MyString
-  boot_time: 2013-03-12 03:19:14
-  memory_overhead: 1
-  description: MyText
-  annotation: MyText
-  aggr_commited_storage_space: 1
-  aggr_uncommited_storage_space: 1
-  aggr_unshared_storage_space: 1
-  storage_space_updated_time: 2013-03-12 03:19:14
-  rank: 1
-  gathered: 2013-03-12 03:19:14
+  dns_name: umkc1.edu
+  hosts: watcher1
+  ip_address: 2.2.2.2
+  memory_overhead: 1000
 
-two:
-  id: 2
+vm_two:
   vsid: 1
   datacenter_id: 1
-  power_state: false
   resource_group_id: 1
-  guest_os: MyString
-  guest_family: MyString
-  guest_state: MyString
-  mem_size_mb: 1
+  mem_size_mb: 100
   num_vcpu: 1
   num_nic: 1
   num_disk: 1
-  dns_name: MyString
-  #host_id: 1
-  ip_address: MyString
-  boot_time: 2013-03-12 03:19:14
-  memory_overhead: 1
-  description: MyText
-  annotation: MyText
-  aggr_commited_storage_space: 1
-  aggr_uncommited_storage_space: 1
-  aggr_unshared_storage_space: 1
-  storage_space_updated_time: 2013-03-12 03:19:14
-  rank: 1
-  gathered: 2013-03-12 03:19:14
+  dns_name: umkc2.edu
+  hosts: watcher1
+  ip_address: 3.3.3.3
+  memory_overhead: 1000
