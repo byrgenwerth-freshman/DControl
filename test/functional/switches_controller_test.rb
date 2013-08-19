@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class SwitchesControllerTest < ActionController::TestCase
+=begin
   setup do
     @switch = switches(:one)
   end
@@ -46,4 +47,5 @@ class SwitchesControllerTest < ActionController::TestCase
 
     assert_redirected_to switches_path
   end
+=end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612103133) do
+ActiveRecord::Schema.define(:version => 20130819201328) do
 
   create_table "flows", :id => false, :force => true do |t|
     t.string  "destination_ip"
@@ -130,7 +130,6 @@ ActiveRecord::Schema.define(:version => 20130612103133) do
     t.integer  "num_nic"
     t.integer  "num_disk"
     t.string   "dns_name"
-    t.integer  "host_id"
     t.string   "ip_address"
     t.datetime "boot_time"
     t.integer  "memory_overhead"
@@ -144,6 +143,7 @@ ActiveRecord::Schema.define(:version => 20130612103133) do
     t.datetime "gathered"
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
+    t.integer  "hosts_id"
   end
 
 end
