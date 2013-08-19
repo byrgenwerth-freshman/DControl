@@ -14,7 +14,7 @@ one:
   num_nic: 1
   num_disk: 1
   dns_name: MyString
-  host_id: 1
+  #host: host_one
   ip_address: MyString
   boot_time: 2013-03-12 03:19:14
   memory_overhead: 1
@@ -41,7 +41,7 @@ two:
   num_nic: 1
   num_disk: 1
   dns_name: MyString
-  host_id: 1
+  #host_id: 1
   ip_address: MyString
   boot_time: 2013-03-12 03:19:14
   memory_overhead: 1

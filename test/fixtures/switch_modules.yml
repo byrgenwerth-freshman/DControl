@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  id: 1
   model: MyString
   description: MyString
   serial_num: MyString
@@ -12,7 +11,6 @@ one:
   gathered: 2013-05-29 13:32:23
 
 two:
-  id: 1
   model: MyString
   description: MyString
   serial_num: MyString

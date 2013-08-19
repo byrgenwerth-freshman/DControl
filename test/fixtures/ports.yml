@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  id: 1
   port: MyString
   vlan: MyString
   state: MyString
@@ -17,7 +16,6 @@ one:
   gathered: 2013-05-29 13:23:26
 
 two:
-  id: 1
   port: MyString
   vlan: MyString
   state: MyString
