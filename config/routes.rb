@@ -20,19 +20,19 @@ CS551Project::Application.routes.draw do
   #The main page is home
   root :to => "home#index"
   #Links to the Links page
-  match "/links/" => "links#index"
+  get "/links/" => "links#index"
   #Links to dcontrol page
-  match "/d_control" => "d_control#index", :vie => :get
+  get "/d_control" => "d_control#index", :vie => :get
   #Links to the different graphs
   #Links to the bargraph page
-  match "/d_control/bargraph" => "bargraph#index"
+  get "/d_control/bargraph" => "bargraph#index"
   #Links to the group bargraph
-  match "/d_control/groupbar" => "groupbar#index"
+  get "/d_control/groupbar" => "groupbar#index"
   #Link to the line chart
-  match "/d_control/linechart" => "linechart#index"
+  get "/d_control/linechart" => "linechart#index"
   #Link to network flow graph
-  match "/d_control/flowgraph" => "networkflowgraph#index"
- 
+  get "/d_control/flowgraph" => "networkflowgraph#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
