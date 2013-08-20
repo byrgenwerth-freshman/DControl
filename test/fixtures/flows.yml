@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  id: 1
   source_ip: MyString
   source_port: 1
   destination_ip: MyString
@@ -12,7 +11,6 @@ one:
   protocol: MyString
 
 two:
-  id: 2
   source_ip: MyString
   source_port: 1
   destination_ip: MyString

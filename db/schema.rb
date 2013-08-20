@@ -11,11 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130819223356) do
+ActiveRecord::Schema.define(:version => 20130820155403) do
 
   create_table "flows", :id => false, :force => true do |t|
     t.string  "destination_ip"
-    t.integer "id"
     t.date    "start_date"
     t.time    "start_time"
     t.date    "end_date"
@@ -71,8 +70,6 @@ ActiveRecord::Schema.define(:version => 20130819223356) do
     t.datetime "gathered"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
-    t.integer  "vms_id"
-    t.integer  "hosts_id"
   end
 
   create_table "ports", :force => true do |t|
@@ -91,6 +88,8 @@ ActiveRecord::Schema.define(:version => 20130819223356) do
     t.datetime "gathered"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+    t.integer  "switch_module_id"
+    t.integer  "switch_id"
   end
 
   create_table "switch_modules", :force => true do |t|
@@ -100,10 +99,10 @@ ActiveRecord::Schema.define(:version => 20130819223356) do
     t.float    "hw"
     t.string   "sw"
     t.string   "fw"
-    t.integer  "switch_id"
     t.datetime "gathered"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "switch_id"
   end
 
   create_table "switches", :force => true do |t|

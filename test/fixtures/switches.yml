@@ -1,21 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  model: MyString
-  cisco_pro_name: MyString
-  cisco_pro_com: MyString
-  sys_desc: MyString
-  sys_name: MyString
-  sys_uptime: MyString
+dswitch1:
+  model: Switch1
+  sys_uptime: 5h
   gathered: 2013-05-29 13:22:25
-  location: MyString
+  location: Admin Center
 
-two:
-  model: MyString
-  cisco_pro_name: MyString
-  cisco_pro_com: MyString
-  sys_desc: MyString
-  sys_name: MyString
-  sys_uptime: MyString
+dswitch2:
+  model: Switch2
+  sys_uptime: 2h
   gathered: 2013-05-29 13:22:25
-  location: MyString
+  location: Admin Center

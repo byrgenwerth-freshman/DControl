@@ -1,21 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  model: MyString
-  description: MyString
-  serial_num: MyString
-  hw: 1.5
-  sw: MyString
-  fw: MyString
-  switch_id: 1
+p_one:
+  model: switch_module1
+  switch: dswitch1
   gathered: 2013-05-29 13:32:23
 
-two:
-  model: MyString
-  description: MyString
-  serial_num: MyString
-  hw: 1.5
-  sw: MyString
-  fw: MyString
-  switch_id: 1
+p_two:
+  model: switch_module1
+  switch: dswitch1
   gathered: 2013-05-29 13:32:23
