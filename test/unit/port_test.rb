@@ -19,4 +19,10 @@ class PortTest < ActiveSupport::TestCase
     assert new_port.valid?
 
   end
+
+  test "ip validation" do
+    new_port = ports(:port_one)
+    p new_port
+
+  end
 end
