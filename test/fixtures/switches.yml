@@ -3,11 +3,9 @@
 dswitch1:
   model: Switch1
   sys_uptime: 5h
-  gathered: 2013-05-29 13:22:25
   location: Admin Center
 
 dswitch2:
   model: Switch2
   sys_uptime: 2h
-  gathered: 2013-05-29 13:22:25
   location: Admin Center

@@ -7,5 +7,7 @@ class Switch < ActiveRecord::Base
   accepts_nested_attributes_for :switch_modules, :ports
 
   #Validations
+  validates :model, :sys_uptime, :location, presence: true
+
 
 end
