@@ -1,21 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  source_ip: MyString
-  source_port: 1
-  destination_ip: MyString
-  destination_port: 1
-  flows: 1
-  packets: 1
-  duration: 1.5
-  protocol: MyString
+  source_ip: 4.4.4.4
+  source_port: 80
+  destination_ip: 46.43.44.43
+  destination_port: 80
+  packets: 200
+  duration: 35
 
 two:
-  source_ip: MyString
-  source_port: 1
-  destination_ip: MyString
-  destination_port: 1
-  flows: 1
-  packets: 1
-  duration: 1.5
-  protocol: MyString
+  source_ip: 9.9.9.9
+  source_port: 22
+  destination_ip: 46.43.44.43
+  destination_port: 80
+  packets: 5674
+  duration: 17

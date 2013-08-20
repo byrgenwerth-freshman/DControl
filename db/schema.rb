@@ -9,11 +9,14 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820155403) do
+ActiveRecord::Schema.define(version: 20130820181516) do
 
-  create_table "flows", :id => false, :force => true do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "flows", force: true do |t|
     t.string  "destination_ip"
     t.date    "start_date"
     t.time    "start_time"
@@ -38,7 +41,7 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.float   "bytes_per_packet"
   end
 
-  create_table "hosts", :force => true do |t|
+  create_table "hosts", force: true do |t|
     t.integer  "vsid"
     t.integer  "datacenter_id"
     t.string   "dns_name"
@@ -68,11 +71,11 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.datetime "boot_time"
     t.integer  "rank"
     t.datetime "gathered"
-    t.datetime "created_at",             :null => false
-    t.datetime "updated_at",             :null => false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
-  create_table "ports", :force => true do |t|
+  create_table "ports", force: true do |t|
     t.string   "port"
     t.string   "vlan"
     t.string   "state"
@@ -86,13 +89,13 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.string   "ip_address"
     t.string   "dns_name"
     t.datetime "gathered"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.integer  "switch_module_id"
     t.integer  "switch_id"
   end
 
-  create_table "switch_modules", :force => true do |t|
+  create_table "switch_modules", force: true do |t|
     t.string   "model"
     t.string   "description"
     t.string   "serial_num"
@@ -100,12 +103,12 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.string   "sw"
     t.string   "fw"
     t.datetime "gathered"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.integer  "switch_id"
   end
 
-  create_table "switches", :force => true do |t|
+  create_table "switches", force: true do |t|
     t.string   "model"
     t.string   "cisco_pro_name"
     t.string   "cisco_pro_com"
@@ -114,11 +117,11 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.string   "sys_uptime"
     t.datetime "gathered"
     t.string   "location"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
-  create_table "vms", :force => true do |t|
+  create_table "vms", force: true do |t|
     t.integer  "vsid"
     t.integer  "datacenter_id"
     t.boolean  "power_state"
@@ -142,8 +145,8 @@ ActiveRecord::Schema.define(:version => 20130820155403) do
     t.datetime "storage_space_updated_time"
     t.integer  "rank"
     t.datetime "gathered"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
     t.integer  "hosts_id"
   end
 
