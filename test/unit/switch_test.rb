@@ -5,7 +5,7 @@ class SwitchTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  test "validation" do
+  test "required validations" do
     new_switch = switches(:dswitch1)
 
     #Validate model

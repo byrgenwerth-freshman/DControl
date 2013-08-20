@@ -3,14 +3,14 @@
 port_one:
   port: A
   speed: 10Gb
-  port_label: B
   ip_address: 5.6.7.9
+  switch: dswitch1
   switch_module: p_one
 
 
 port_two:
   port: B
   speed: 10Gb
-  port_label: A
   ip_address: 5.6.7.8
+  switch: dswitch1
   switch_module: p_one

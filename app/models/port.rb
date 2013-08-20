@@ -5,6 +5,7 @@ class Port < ActiveRecord::Base
   belongs_to :switch
 
   #Validations
+  validates :port, :ip_address, presence: true
 
 
 end

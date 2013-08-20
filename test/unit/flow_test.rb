@@ -2,7 +2,7 @@
 require 'test_helper'
 
 class FlowTest < ActiveSupport::TestCase
-  test "validations" do
+  test "required validations" do
     new_flow = flows(:one)
 
     #Source IP

@@ -5,7 +5,7 @@ class SwitchModuleTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  test "validation" do
+  test "required validations" do
     new_sm = switch_modules(:p_one)
 
     #Validate model name
