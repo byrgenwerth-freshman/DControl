@@ -3,9 +3,7 @@
 p_one:
   model: switch_module1
   switch: dswitch1
-  gathered: 2013-05-29 13:32:23
 
 p_two:
   model: switch_module1
   switch: dswitch1
-  gathered: 2013-05-29 13:32:23

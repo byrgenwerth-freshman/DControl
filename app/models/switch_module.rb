@@ -5,5 +5,7 @@ class SwitchModule < ActiveRecord::Base
   belongs_to :switch
 
   #Validations
+  validates :model, presence: true
+
 
 end
