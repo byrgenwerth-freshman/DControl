@@ -1,6 +1,5 @@
 #d_control_controller.rb
 #By: Matt Owens
-
 ###############################################################################
 class DControlController < ApplicationController
   #Initializes the page
@@ -10,7 +9,7 @@ class DControlController < ApplicationController
     view = params[:view]
     start_date = params[:start_date]
     end_date = params[:end_date]
-    
+
     #For single view
     if info.to_s == 'hosts' and view.to_s == 's'
       @selected = Host.where("gathered >= :start_date AND gathered <= :end_date",
@@ -35,7 +34,7 @@ class DControlController < ApplicationController
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
-    
+
     #For group view
     #Need to add distinct date as well
     elsif info.to_s == 'hosts' and view.to_s == 'g'
@@ -58,7 +57,7 @@ class DControlController < ApplicationController
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
-    
+
     #For historical single view
     elsif info.to_s == 'hosts' and view.to_s == 'hs'
       @selected = Host.select("DISTINCT dns_name")
@@ -79,7 +78,7 @@ class DControlController < ApplicationController
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
-    
+
     #For historical group view
     elsif info.to_s == 'hosts' and view.to_s == 'hg'
       @selected = Host.select("DISTINCT datacenter_id")
@@ -100,7 +99,7 @@ class DControlController < ApplicationController
       respond_to do |format|
         format.json { render :json => {:info =>  @selected, :compare => @names}}
       end
-    
+
     #Default load
     else
       @selected = Host.all
