@@ -30,6 +30,8 @@ gem 'minitest'
 
 gem "turn", "~> 0.9.6"
 
+gem 'coffee-rails'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
