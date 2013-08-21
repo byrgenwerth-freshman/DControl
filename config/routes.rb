@@ -23,7 +23,10 @@ CS551Project::Application.routes.draw do
   get "/links/" => "links#index"
   #Links to dcontrol page
   get "/d_control" => "d_control#index", :vie => :get
-  post "/d_control" => "d_control#index"
+  post "/d_control/host" => "d_control#host"
+  post "/d_control/vm" => "d_control#vm"
+  post "/d_control/flow" => "d_control#flow"
+
   #Links to the different graphs
   #Links to the bargraph page
   get "/d_control/bargraph" => "bargraph#index"
